@@ -1,0 +1,1582 @@
+[0.000000] (-) TimerEvent: {}
+[0.043948] (fsd_common_msgs) JobQueued: {'identifier': 'fsd_common_msgs', 'dependencies': OrderedDict()}
+[0.044093] (cone_visualizer) JobQueued: {'identifier': 'cone_visualizer', 'dependencies': OrderedDict([('fsd_common_msgs', '/home/jack/ros2_homework_advanced/install/fsd_common_msgs')])}
+[0.044185] (fsd_common_msgs) JobStarted: {'identifier': 'fsd_common_msgs'}
+[0.098908] (-) TimerEvent: {}
+[0.199575] (-) TimerEvent: {}
+[0.301266] (-) TimerEvent: {}
+[0.401918] (-) TimerEvent: {}
+[0.503755] (-) TimerEvent: {}
+[0.604514] (-) TimerEvent: {}
+[0.705303] (-) TimerEvent: {}
+[0.809122] (-) TimerEvent: {}
+[0.909904] (-) TimerEvent: {}
+[1.010628] (-) TimerEvent: {}
+[1.111069] (-) TimerEvent: {}
+[1.212151] (-) TimerEvent: {}
+[1.312748] (-) TimerEvent: {}
+[1.413287] (-) TimerEvent: {}
+[1.513889] (-) TimerEvent: {}
+[1.614338] (-) TimerEvent: {}
+[1.714793] (-) TimerEvent: {}
+[1.815261] (-) TimerEvent: {}
+[1.915817] (-) TimerEvent: {}
+[2.016374] (-) TimerEvent: {}
+[2.116890] (-) TimerEvent: {}
+[2.217423] (-) TimerEvent: {}
+[2.318380] (-) TimerEvent: {}
+[2.337595] (fsd_common_msgs) JobProgress: {'identifier': 'fsd_common_msgs', 'progress': 'cmake'}
+[2.418559] (-) TimerEvent: {}
+[2.519206] (-) TimerEvent: {}
+[2.619757] (-) TimerEvent: {}
+[2.720275] (-) TimerEvent: {}
+[2.821011] (-) TimerEvent: {}
+[2.921441] (-) TimerEvent: {}
+[3.021906] (-) TimerEvent: {}
+[3.025180] (fsd_common_msgs) JobProgress: {'identifier': 'fsd_common_msgs', 'progress': 'build'}
+[3.025311] (fsd_common_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jack/ros2_homework_advanced/build/fsd_common_msgs', '--', '-j2', '-l2'], 'cwd': '/home/jack/ros2_homework_advanced/build/fsd_common_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jack'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jack'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '9453'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4a5fbc56cdc9235e199dae996a20d8d3'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jack/ros2_homework_advanced/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jack'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jack'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jack-270E5J-2570EJ:@/tmp/.ICE-unix/9453,unix/jack-270E5J-2570EJ:/tmp/.ICE-unix/9453'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d90ee308_6c48_42e1_bd70_997138279458'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZB7FQ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.261'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jack/ros2_homework_advanced/install/cone_visualizer:/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('INSIDE_NAUTILUS_PYTHON', ''), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jack/ros2_homework_advanced/build/fsd_common_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4a5fbc56cdc9235e199dae996a20d8d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/jack/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jack/ros2_homework_advanced/install/cone_visualizer:/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/opt/ros/humble')]), 'shell': False}
+[3.122049] (-) TimerEvent: {}
+[3.222563] (-) TimerEvent: {}
+[3.323152] (-) TimerEvent: {}
+[3.423704] (-) TimerEvent: {}
+[3.524544] (-) TimerEvent: {}
+[3.708217] (-) TimerEvent: {}
+[3.808727] (-) TimerEvent: {}
+[3.909166] (-) TimerEvent: {}
+[4.009869] (-) TimerEvent: {}
+[4.110355] (-) TimerEvent: {}
+[4.210836] (-) TimerEvent: {}
+[4.311270] (-) TimerEvent: {}
+[4.412332] (-) TimerEvent: {}
+[4.512761] (-) TimerEvent: {}
+[4.613367] (-) TimerEvent: {}
+[4.713852] (-) TimerEvent: {}
+[4.814293] (-) TimerEvent: {}
+[4.914856] (-) TimerEvent: {}
+[5.015318] (-) TimerEvent: {}
+[5.501697] (-) TimerEvent: {}
+[5.677265] (-) TimerEvent: {}
+[5.778114] (-) TimerEvent: {}
+[5.878628] (-) TimerEvent: {}
+[5.979090] (-) TimerEvent: {}
+[6.079588] (-) TimerEvent: {}
+[6.180185] (-) TimerEvent: {}
+[6.281091] (-) TimerEvent: {}
+[6.381768] (-) TimerEvent: {}
+[6.482379] (-) TimerEvent: {}
+[6.582842] (-) TimerEvent: {}
+[6.683430] (-) TimerEvent: {}
+[6.783900] (-) TimerEvent: {}
+[6.889048] (-) TimerEvent: {}
+[6.989556] (-) TimerEvent: {}
+[7.090411] (-) TimerEvent: {}
+[7.192587] (-) TimerEvent: {}
+[7.293030] (-) TimerEvent: {}
+[7.393642] (-) TimerEvent: {}
+[7.494297] (-) TimerEvent: {}
+[7.594863] (-) TimerEvent: {}
+[7.695804] (-) TimerEvent: {}
+[7.797240] (-) TimerEvent: {}
+[7.897865] (-) TimerEvent: {}
+[8.000863] (-) TimerEvent: {}
+[8.101307] (-) TimerEvent: {}
+[8.203256] (-) TimerEvent: {}
+[8.305031] (-) TimerEvent: {}
+[8.406753] (-) TimerEvent: {}
+[8.507816] (-) TimerEvent: {}
+[8.608285] (-) TimerEvent: {}
+[8.708917] (-) TimerEvent: {}
+[8.809624] (-) TimerEvent: {}
+[8.910146] (-) TimerEvent: {}
+[9.010866] (-) TimerEvent: {}
+[9.111619] (-) TimerEvent: {}
+[9.212788] (-) TimerEvent: {}
+[9.313453] (-) TimerEvent: {}
+[9.414114] (-) TimerEvent: {}
+[9.514823] (-) TimerEvent: {}
+[9.615723] (-) TimerEvent: {}
+[9.716414] (-) TimerEvent: {}
+[9.817775] (-) TimerEvent: {}
+[9.918705] (-) TimerEvent: {}
+[10.019294] (-) TimerEvent: {}
+[10.119815] (-) TimerEvent: {}
+[10.220511] (-) TimerEvent: {}
+[10.321751] (-) TimerEvent: {}
+[10.422235] (-) TimerEvent: {}
+[10.523609] (-) TimerEvent: {}
+[10.624078] (-) TimerEvent: {}
+[10.724572] (-) TimerEvent: {}
+[10.825588] (-) TimerEvent: {}
+[10.926045] (-) TimerEvent: {}
+[11.026570] (-) TimerEvent: {}
+[11.128767] (-) TimerEvent: {}
+[11.229984] (-) TimerEvent: {}
+[11.330437] (-) TimerEvent: {}
+[11.431971] (-) TimerEvent: {}
+[11.532734] (-) TimerEvent: {}
+[11.633642] (-) TimerEvent: {}
+[11.735210] (-) TimerEvent: {}
+[11.835710] (-) TimerEvent: {}
+[11.936172] (-) TimerEvent: {}
+[12.036931] (-) TimerEvent: {}
+[12.138232] (-) TimerEvent: {}
+[12.240681] (-) TimerEvent: {}
+[12.341338] (-) TimerEvent: {}
+[12.441832] (-) TimerEvent: {}
+[12.542690] (-) TimerEvent: {}
+[12.643415] (-) TimerEvent: {}
+[12.744008] (-) TimerEvent: {}
+[12.844732] (-) TimerEvent: {}
+[12.945198] (-) TimerEvent: {}
+[13.045622] (-) TimerEvent: {}
+[13.147720] (-) TimerEvent: {}
+[13.248259] (-) TimerEvent: {}
+[13.349298] (-) TimerEvent: {}
+[13.449854] (-) TimerEvent: {}
+[13.550425] (-) TimerEvent: {}
+[13.652488] (-) TimerEvent: {}
+[13.753602] (-) TimerEvent: {}
+[13.855788] (-) TimerEvent: {}
+[13.956609] (-) TimerEvent: {}
+[14.057562] (-) TimerEvent: {}
+[14.158383] (-) TimerEvent: {}
+[14.260466] (-) TimerEvent: {}
+[14.360910] (-) TimerEvent: {}
+[14.461367] (-) TimerEvent: {}
+[14.561825] (-) TimerEvent: {}
+[14.662599] (-) TimerEvent: {}
+[14.763126] (-) TimerEvent: {}
+[14.866000] (-) TimerEvent: {}
+[14.966558] (-) TimerEvent: {}
+[15.066991] (-) TimerEvent: {}
+[15.167490] (-) TimerEvent: {}
+[15.268227] (-) TimerEvent: {}
+[15.368671] (-) TimerEvent: {}
+[15.469109] (-) TimerEvent: {}
+[15.570039] (-) TimerEvent: {}
+[15.671625] (-) TimerEvent: {}
+[15.772289] (-) TimerEvent: {}
+[15.872828] (-) TimerEvent: {}
+[15.973345] (-) TimerEvent: {}
+[16.073946] (-) TimerEvent: {}
+[16.174449] (-) TimerEvent: {}
+[16.274994] (-) TimerEvent: {}
+[16.375525] (-) TimerEvent: {}
+[16.477596] (-) TimerEvent: {}
+[16.579620] (-) TimerEvent: {}
+[16.681587] (-) TimerEvent: {}
+[16.782113] (-) TimerEvent: {}
+[16.883754] (-) TimerEvent: {}
+[16.984277] (-) TimerEvent: {}
+[17.096437] (-) TimerEvent: {}
+[17.197001] (-) TimerEvent: {}
+[17.297541] (-) TimerEvent: {}
+[17.398848] (-) TimerEvent: {}
+[17.499340] (-) TimerEvent: {}
+[17.599792] (-) TimerEvent: {}
+[17.700917] (-) TimerEvent: {}
+[17.802420] (-) TimerEvent: {}
+[17.902902] (-) TimerEvent: {}
+[18.000599] (fsd_common_msgs) StdoutLine: {'line': b'[  1%] Built target fsd_common_msgs__rs\n'}
+[18.003615] (-) TimerEvent: {}
+[18.104138] (-) TimerEvent: {}
+[18.204653] (-) TimerEvent: {}
+[18.306750] (-) TimerEvent: {}
+[18.407595] (-) TimerEvent: {}
+[18.508152] (-) TimerEvent: {}
+[18.610774] (-) TimerEvent: {}
+[18.711798] (-) TimerEvent: {}
+[18.812965] (-) TimerEvent: {}
+[18.911721] (fsd_common_msgs) StdoutLine: {'line': b'[ 13%] Built target fsd_common_msgs__rosidl_generator_c\n'}
+[18.913110] (-) TimerEvent: {}
+[19.015748] (-) TimerEvent: {}
+[19.116287] (-) TimerEvent: {}
+[19.216771] (-) TimerEvent: {}
+[19.317223] (-) TimerEvent: {}
+[19.329898] (fsd_common_msgs) StdoutLine: {'line': b'[ 13%] Built target fsd_common_msgs__cpp\n'}
+[19.417376] (-) TimerEvent: {}
+[19.517865] (-) TimerEvent: {}
+[19.618327] (-) TimerEvent: {}
+[19.719602] (-) TimerEvent: {}
+[19.820406] (-) TimerEvent: {}
+[19.921216] (-) TimerEvent: {}
+[20.021927] (-) TimerEvent: {}
+[20.122480] (-) TimerEvent: {}
+[20.222955] (-) TimerEvent: {}
+[20.323666] (-) TimerEvent: {}
+[20.424955] (-) TimerEvent: {}
+[20.525571] (-) TimerEvent: {}
+[20.626011] (-) TimerEvent: {}
+[20.726440] (-) TimerEvent: {}
+[20.827264] (-) TimerEvent: {}
+[20.927799] (-) TimerEvent: {}
+[21.028420] (-) TimerEvent: {}
+[21.128982] (-) TimerEvent: {}
+[21.229445] (-) TimerEvent: {}
+[21.330059] (-) TimerEvent: {}
+[21.432648] (-) TimerEvent: {}
+[21.533123] (-) TimerEvent: {}
+[21.633610] (-) TimerEvent: {}
+[21.734134] (-) TimerEvent: {}
+[21.774448] (fsd_common_msgs) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_copy_fsd_common_msgs\n'}
+[21.834273] (-) TimerEvent: {}
+[21.934868] (-) TimerEvent: {}
+[22.035766] (-) TimerEvent: {}
+[22.136621] (-) TimerEvent: {}
+[22.237610] (-) TimerEvent: {}
+[22.340612] (-) TimerEvent: {}
+[22.441300] (-) TimerEvent: {}
+[22.543988] (-) TimerEvent: {}
+[22.644468] (-) TimerEvent: {}
+[22.723385] (fsd_common_msgs) StdoutLine: {'line': b'[ 25%] Built target fsd_common_msgs__rosidl_typesupport_fastrtps_c\n'}
+[22.746210] (-) TimerEvent: {}
+[22.846971] (-) TimerEvent: {}
+[22.947490] (-) TimerEvent: {}
+[23.048717] (-) TimerEvent: {}
+[23.150984] (-) TimerEvent: {}
+[23.252129] (-) TimerEvent: {}
+[23.354209] (-) TimerEvent: {}
+[23.455687] (-) TimerEvent: {}
+[23.557069] (-) TimerEvent: {}
+[23.659616] (-) TimerEvent: {}
+[23.762372] (-) TimerEvent: {}
+[23.866244] (-) TimerEvent: {}
+[23.884377] (fsd_common_msgs) StdoutLine: {'line': b'[ 37%] Built target fsd_common_msgs__rosidl_typesupport_introspection_c\n'}
+[23.966440] (-) TimerEvent: {}
+[24.068601] (-) TimerEvent: {}
+[24.169294] (-) TimerEvent: {}
+[24.269922] (-) TimerEvent: {}
+[24.371748] (-) TimerEvent: {}
+[24.472251] (-) TimerEvent: {}
+[24.573828] (-) TimerEvent: {}
+[24.669299] (fsd_common_msgs) StdoutLine: {'line': b'[ 49%] Built target fsd_common_msgs__rosidl_typesupport_c\n'}
+[24.673968] (-) TimerEvent: {}
+[24.774483] (-) TimerEvent: {}
+[24.875792] (-) TimerEvent: {}
+[24.977795] (-) TimerEvent: {}
+[25.078260] (-) TimerEvent: {}
+[25.178996] (-) TimerEvent: {}
+[25.280199] (-) TimerEvent: {}
+[25.381678] (-) TimerEvent: {}
+[25.482488] (-) TimerEvent: {}
+[25.584104] (-) TimerEvent: {}
+[25.686625] (-) TimerEvent: {}
+[25.778871] (fsd_common_msgs) StdoutLine: {'line': b'[ 61%] Built target fsd_common_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[25.788369] (-) TimerEvent: {}
+[25.888859] (-) TimerEvent: {}
+[25.990207] (-) TimerEvent: {}
+[26.091792] (-) TimerEvent: {}
+[26.192456] (-) TimerEvent: {}
+[26.292919] (-) TimerEvent: {}
+[26.395089] (-) TimerEvent: {}
+[26.495735] (-) TimerEvent: {}
+[26.596256] (-) TimerEvent: {}
+[26.699835] (-) TimerEvent: {}
+[26.745946] (fsd_common_msgs) StdoutLine: {'line': b'[ 73%] Built target fsd_common_msgs__rosidl_typesupport_introspection_cpp\n'}
+[26.801546] (-) TimerEvent: {}
+[26.903783] (-) TimerEvent: {}
+[27.004290] (-) TimerEvent: {}
+[27.105778] (-) TimerEvent: {}
+[27.206320] (-) TimerEvent: {}
+[27.306960] (-) TimerEvent: {}
+[27.407812] (-) TimerEvent: {}
+[27.508634] (-) TimerEvent: {}
+[27.609113] (-) TimerEvent: {}
+[27.709598] (-) TimerEvent: {}
+[27.810204] (-) TimerEvent: {}
+[27.911029] (-) TimerEvent: {}
+[28.012713] (-) TimerEvent: {}
+[28.048602] (fsd_common_msgs) StdoutLine: {'line': b'[ 85%] Built target fsd_common_msgs__rosidl_typesupport_cpp\n'}
+[28.112891] (-) TimerEvent: {}
+[28.215688] (-) TimerEvent: {}
+[28.316594] (-) TimerEvent: {}
+[28.417809] (-) TimerEvent: {}
+[28.519296] (-) TimerEvent: {}
+[28.621836] (-) TimerEvent: {}
+[28.722354] (-) TimerEvent: {}
+[28.823086] (-) TimerEvent: {}
+[28.924061] (-) TimerEvent: {}
+[29.025980] (-) TimerEvent: {}
+[29.126746] (-) TimerEvent: {}
+[29.227452] (-) TimerEvent: {}
+[29.329132] (-) TimerEvent: {}
+[29.430783] (-) TimerEvent: {}
+[29.531528] (-) TimerEvent: {}
+[29.633024] (-) TimerEvent: {}
+[29.735780] (-) TimerEvent: {}
+[29.836251] (-) TimerEvent: {}
+[29.938606] (-) TimerEvent: {}
+[30.039185] (-) TimerEvent: {}
+[30.139975] (-) TimerEvent: {}
+[30.145600] (fsd_common_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[30.148282] (fsd_common_msgs) StdoutLine: {'line': b'writing fsd_common_msgs.egg-info/PKG-INFO\n'}
+[30.165269] (fsd_common_msgs) StdoutLine: {'line': b'writing dependency_links to fsd_common_msgs.egg-info/dependency_links.txt\n'}
+[30.203704] (fsd_common_msgs) StdoutLine: {'line': b'writing top-level names to fsd_common_msgs.egg-info/top_level.txt\n'}
+[30.240152] (-) TimerEvent: {}
+[30.341495] (-) TimerEvent: {}
+[30.382628] (fsd_common_msgs) StdoutLine: {'line': b"reading manifest file 'fsd_common_msgs.egg-info/SOURCES.txt'\n"}
+[30.433489] (fsd_common_msgs) StdoutLine: {'line': b"writing manifest file 'fsd_common_msgs.egg-info/SOURCES.txt'\n"}
+[30.442626] (-) TimerEvent: {}
+[30.543573] (-) TimerEvent: {}
+[30.548007] (fsd_common_msgs) StdoutLine: {'line': b'[ 85%] Built target ament_cmake_python_build_fsd_common_msgs_egg\n'}
+[30.643735] (-) TimerEvent: {}
+[30.710432] (fsd_common_msgs) StdoutLine: {'line': b'[ 85%] Built target fsd_common_msgs\n'}
+[30.743879] (-) TimerEvent: {}
+[30.844672] (-) TimerEvent: {}
+[30.947108] (-) TimerEvent: {}
+[31.051220] (-) TimerEvent: {}
+[31.067467] (fsd_common_msgs) StdoutLine: {'line': b'[ 85%] Built target fsd_common_msgs__py\n'}
+[31.151350] (-) TimerEvent: {}
+[31.253045] (-) TimerEvent: {}
+[31.353695] (-) TimerEvent: {}
+[31.454136] (-) TimerEvent: {}
+[31.556048] (-) TimerEvent: {}
+[31.657611] (-) TimerEvent: {}
+[31.678570] (fsd_common_msgs) StdoutLine: {'line': b'[ 97%] Built target fsd_common_msgs__rosidl_generator_py\n'}
+[31.757775] (-) TimerEvent: {}
+[31.858286] (-) TimerEvent: {}
+[31.958969] (-) TimerEvent: {}
+[32.059600] (-) TimerEvent: {}
+[32.130705] (fsd_common_msgs) StdoutLine: {'line': b'[ 98%] Built target fsd_common_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[32.159734] (-) TimerEvent: {}
+[32.260219] (-) TimerEvent: {}
+[32.360733] (-) TimerEvent: {}
+[32.461687] (-) TimerEvent: {}
+[32.563668] (-) TimerEvent: {}
+[32.664156] (-) TimerEvent: {}
+[32.766600] (-) TimerEvent: {}
+[32.867059] (-) TimerEvent: {}
+[32.967532] (-) TimerEvent: {}
+[33.016043] (fsd_common_msgs) StdoutLine: {'line': b'[ 99%] Built target fsd_common_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[33.067647] (-) TimerEvent: {}
+[33.168702] (-) TimerEvent: {}
+[33.269734] (-) TimerEvent: {}
+[33.370756] (-) TimerEvent: {}
+[33.471996] (-) TimerEvent: {}
+[33.572483] (-) TimerEvent: {}
+[33.674066] (-) TimerEvent: {}
+[33.775773] (-) TimerEvent: {}
+[33.878975] (-) TimerEvent: {}
+[33.914207] (fsd_common_msgs) StdoutLine: {'line': b'[100%] Built target fsd_common_msgs__rosidl_typesupport_c__pyext\n'}
+[33.974587] (fsd_common_msgs) CommandEnded: {'returncode': 0}
+[33.979680] (-) TimerEvent: {}
+[34.007784] (fsd_common_msgs) JobProgress: {'identifier': 'fsd_common_msgs', 'progress': 'install'}
+[34.044240] (fsd_common_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jack/ros2_homework_advanced/build/fsd_common_msgs'], 'cwd': '/home/jack/ros2_homework_advanced/build/fsd_common_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jack'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jack'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '9453'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4a5fbc56cdc9235e199dae996a20d8d3'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jack/ros2_homework_advanced/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jack'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jack'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jack-270E5J-2570EJ:@/tmp/.ICE-unix/9453,unix/jack-270E5J-2570EJ:/tmp/.ICE-unix/9453'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d90ee308_6c48_42e1_bd70_997138279458'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZB7FQ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.261'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jack/ros2_homework_advanced/install/cone_visualizer:/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('INSIDE_NAUTILUS_PYTHON', ''), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jack/ros2_homework_advanced/build/fsd_common_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4a5fbc56cdc9235e199dae996a20d8d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/jack/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jack/ros2_homework_advanced/install/cone_visualizer:/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/opt/ros/humble')]), 'shell': False}
+[34.080443] (-) TimerEvent: {}
+[34.181430] (-) TimerEvent: {}
+[34.283782] (-) TimerEvent: {}
+[34.290308] (fsd_common_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.374345] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/ament_index/resource_index/rosidl_interfaces/fsd_common_msgs\n'}
+[34.377891] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs\n'}
+[34.378208] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg\n'}
+[34.378418] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/decision_flag.h\n'}
+[34.378622] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/time.h\n'}
+[34.378803] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/can_frames.h\n'}
+[34.378966] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/track.h\n'}
+[34.379153] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/trajectory_point.h\n'}
+[34.379312] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/ins_delta.h\n'}
+[34.379469] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/visualization.h\n'}
+[34.384709] (-) TimerEvent: {}
+[34.386733] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/cone_dbscan.h\n'}
+[34.387059] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/echiev_message.h\n'}
+[34.387280] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/yolo_cone_detections_track.h\n'}
+[34.389344] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail\n'}
+[34.389739] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__type_support.h\n'}
+[34.389955] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__struct.h\n'}
+[34.390139] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__struct.h\n'}
+[34.390323] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__type_support.h\n'}
+[34.390496] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__type_support.h\n'}
+[34.390696] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__struct.h\n'}
+[34.390854] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__functions.h\n'}
+[34.391058] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__functions.h\n'}
+[34.391210] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__struct.h\n'}
+[34.391358] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__type_support.h\n'}
+[34.393915] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__struct.h\n'}
+[34.394792] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__struct.h\n'}
+[34.395024] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__struct.h\n'}
+[34.395233] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__type_support.h\n'}
+[34.395398] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__type_support.h\n'}
+[34.395578] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__struct.h\n'}
+[34.395745] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__type_support.h\n'}
+[34.395895] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__type_support.h\n'}
+[34.396042] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__functions.c\n'}
+[34.396190] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__functions.c\n'}
+[34.396335] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__type_support.h\n'}
+[34.396490] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__struct.h\n'}
+[34.399083] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__functions.c\n'}
+[34.399289] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__type_support.h\n'}
+[34.399462] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__type_support.h\n'}
+[34.399680] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__functions.h\n'}
+[34.399848] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__type_support.h\n'}
+[34.401643] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__type_support.h\n'}
+[34.401972] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__functions.h\n'}
+[34.402169] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__functions.c\n'}
+[34.402329] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__functions.c\n'}
+[34.402474] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__functions.c\n'}
+[34.403790] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__type_support.h\n'}
+[34.404011] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__type_support.h\n'}
+[34.404199] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__struct.h\n'}
+[34.404355] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__functions.c\n'}
+[34.404522] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__struct.h\n'}
+[34.404701] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__functions.c\n'}
+[34.406088] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__functions.h\n'}
+[34.406282] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__functions.h\n'}
+[34.406434] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__functions.h\n'}
+[34.407783] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__functions.c\n'}
+[34.407971] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__type_support.h\n'}
+[34.408119] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__type_support.h\n'}
+[34.408261] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__functions.c\n'}
+[34.408402] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__struct.h\n'}
+[34.409452] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__struct.h\n'}
+[34.409761] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__functions.h\n'}
+[34.409921] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__struct.h\n'}
+[34.410067] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__functions.h\n'}
+[34.410209] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__type_support.h\n'}
+[34.412474] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__functions.h\n'}
+[34.412720] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__struct.h\n'}
+[34.412902] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__functions.h\n'}
+[34.413051] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__struct.h\n'}
+[34.413195] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__functions.c\n'}
+[34.413336] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__struct.h\n'}
+[34.413476] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__functions.c\n'}
+[34.413649] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__struct.h\n'}
+[34.413920] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__functions.h\n'}
+[34.414074] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__functions.h\n'}
+[34.414244] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__functions.c\n'}
+[34.414387] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__type_support.h\n'}
+[34.414548] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__functions.c\n'}
+[34.414717] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__functions.c\n'}
+[34.414864] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__struct.h\n'}
+[34.415005] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__functions.h\n'}
+[34.415149] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__functions.h\n'}
+[34.415293] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__functions.h\n'}
+[34.417840] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__functions.h\n'}
+[34.418142] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__functions.c\n'}
+[34.418311] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__functions.c\n'}
+[34.418461] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__functions.c\n'}
+[34.418676] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__functions.c\n'}
+[34.418833] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__type_support.h\n'}
+[34.418978] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__functions.c\n'}
+[34.419137] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__struct.h\n'}
+[34.419281] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__functions.c\n'}
+[34.419423] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__functions.c\n'}
+[34.419597] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__struct.h\n'}
+[34.419757] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__functions.c\n'}
+[34.419905] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__struct.h\n'}
+[34.420451] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__functions.h\n'}
+[34.421334] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__functions.h\n'}
+[34.421557] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__struct.h\n'}
+[34.421737] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__struct.h\n'}
+[34.421885] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__functions.h\n'}
+[34.422024] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__functions.c\n'}
+[34.422203] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__functions.h\n'}
+[34.422343] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__type_support.h\n'}
+[34.422481] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__type_support.h\n'}
+[34.424853] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__type_support.h\n'}
+[34.425069] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__type_support.h\n'}
+[34.425224] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__type_support.h\n'}
+[34.425369] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__type_support.h\n'}
+[34.425534] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__struct.h\n'}
+[34.425718] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__struct.h\n'}
+[34.425864] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__struct.h\n'}
+[34.426002] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__functions.h\n'}
+[34.426255] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__functions.h\n'}
+[34.426665] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__functions.c\n'}
+[34.426859] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__type_support.h\n'}
+[34.427006] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__functions.h\n'}
+[34.427147] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__functions.h\n'}
+[34.427297] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__functions.h\n'}
+[34.427437] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__functions.c\n'}
+[34.427608] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__functions.h\n'}
+[34.427758] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__functions.c\n'}
+[34.427897] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__struct.h\n'}
+[34.428034] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__functions.h\n'}
+[34.428171] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__type_support.h\n'}
+[34.428310] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__functions.c\n'}
+[34.430773] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[34.430986] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/cone_detections_dbscan.h\n'}
+[34.431143] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/driving_dynamics.h\n'}
+[34.431331] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/cone.h\n'}
+[34.431478] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/car_state_dt.h\n'}
+[34.431655] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/asensing_message.h\n'}
+[34.431920] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/feedback.h\n'}
+[34.432067] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/as_state.h\n'}
+[34.432208] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/car_state.h\n'}
+[34.432346] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/yolo_cone.h\n'}
+[34.432483] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/yolo_cone_track.h\n'}
+[34.433320] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/control_command.h\n'}
+[34.433486] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/skidpad_global_center_line.h\n'}
+[34.433670] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/cone_detections.h\n'}
+[34.433815] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/yolo_cone_detections.h\n'}
+[34.433955] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/remote_control_command.h\n'}
+[34.434123] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/map.h\n'}
+[34.434267] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/res_and_ami.h\n'}
+[34.435534] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/mission.h\n'}
+[34.435846] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/environment/library_path.sh\n'}
+[34.436008] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/environment/library_path.dsv\n'}
+[34.484857] (-) TimerEvent: {}
+[34.555420] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib/libfsd_common_msgs__rosidl_generator_c.so\n'}
+[34.557311] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs\n'}
+[34.557600] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg\n'}
+[34.557808] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail\n'}
+[34.557981] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__rosidl_typesupport_fastrtps_c.h\n'}
+[34.558145] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__rosidl_typesupport_fastrtps_c.h\n'}
+[34.558297] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__rosidl_typesupport_fastrtps_c.h\n'}
+[34.585605] (-) TimerEvent: {}
+[34.604963] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__rosidl_typesupport_fastrtps_c.h\n'}
+[34.606228] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__rosidl_typesupport_fastrtps_c.h\n'}
+[34.606815] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__rosidl_typesupport_fastrtps_c.h\n'}
+[34.608110] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__rosidl_typesupport_fastrtps_c.h\n'}
+[34.608316] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__rosidl_typesupport_fastrtps_c.h\n'}
+[34.609482] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__rosidl_typesupport_fastrtps_c.h\n'}
+[34.610086] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__rosidl_typesupport_fastrtps_c.h\n'}
+[34.610323] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__rosidl_typesupport_fastrtps_c.h\n'}
+[34.610774] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__rosidl_typesupport_fastrtps_c.h\n'}
+[34.611011] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__rosidl_typesupport_fastrtps_c.h\n'}
+[34.611203] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__rosidl_typesupport_fastrtps_c.h\n'}
+[34.611364] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__rosidl_typesupport_fastrtps_c.h\n'}
+[34.611587] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__rosidl_typesupport_fastrtps_c.h\n'}
+[34.611773] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__rosidl_typesupport_fastrtps_c.h\n'}
+[34.611928] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__rosidl_typesupport_fastrtps_c.h\n'}
+[34.613798] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__rosidl_typesupport_fastrtps_c.h\n'}
+[34.614028] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__rosidl_typesupport_fastrtps_c.h\n'}
+[34.614201] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__rosidl_typesupport_fastrtps_c.h\n'}
+[34.614357] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__rosidl_typesupport_fastrtps_c.h\n'}
+[34.615255] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h\n'}
+[34.615562] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__rosidl_typesupport_fastrtps_c.h\n'}
+[34.615761] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_c.h\n'}
+[34.615929] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__rosidl_typesupport_fastrtps_c.h\n'}
+[34.616085] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__rosidl_typesupport_fastrtps_c.h\n'}
+[34.616234] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__rosidl_typesupport_fastrtps_c.h\n'}
+[34.616384] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[34.686600] (-) TimerEvent: {}
+[34.704618] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib/libfsd_common_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[34.705203] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs\n'}
+[34.705526] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg\n'}
+[34.705731] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail\n'}
+[34.705930] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__type_support.c\n'}
+[34.706321] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__rosidl_typesupport_introspection_c.h\n'}
+[34.706904] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__type_support.c\n'}
+[34.707681] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_c.h\n'}
+[34.707860] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__type_support.c\n'}
+[34.708013] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__type_support.c\n'}
+[34.708159] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__rosidl_typesupport_introspection_c.h\n'}
+[34.708301] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__type_support.c\n'}
+[34.708463] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__rosidl_typesupport_introspection_c.h\n'}
+[34.711842] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__type_support.c\n'}
+[34.712063] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__rosidl_typesupport_introspection_c.h\n'}
+[34.712224] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__type_support.c\n'}
+[34.712479] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__rosidl_typesupport_introspection_c.h\n'}
+[34.712697] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__rosidl_typesupport_introspection_c.h\n'}
+[34.712853] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__rosidl_typesupport_introspection_c.h\n'}
+[34.712997] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__type_support.c\n'}
+[34.713138] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__rosidl_typesupport_introspection_c.h\n'}
+[34.713278] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__rosidl_typesupport_introspection_c.h\n'}
+[34.713417] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__type_support.c\n'}
+[34.713614] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__type_support.c\n'}
+[34.713762] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__rosidl_typesupport_introspection_c.h\n'}
+[34.713902] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__rosidl_typesupport_introspection_c.h\n'}
+[34.714044] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__type_support.c\n'}
+[34.716863] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__type_support.c\n'}
+[34.717048] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h\n'}
+[34.717250] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__type_support.c\n'}
+[34.717402] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__type_support.c\n'}
+[34.717575] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__type_support.c\n'}
+[34.717733] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__rosidl_typesupport_introspection_c.h\n'}
+[34.717874] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__type_support.c\n'}
+[34.718014] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__type_support.c\n'}
+[34.718170] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__type_support.c\n'}
+[34.718313] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__rosidl_typesupport_introspection_c.h\n'}
+[34.718451] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__type_support.c\n'}
+[34.718624] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__rosidl_typesupport_introspection_c.h\n'}
+[34.718772] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__rosidl_typesupport_introspection_c.h\n'}
+[34.718910] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__rosidl_typesupport_introspection_c.h\n'}
+[34.719048] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__rosidl_typesupport_introspection_c.h\n'}
+[34.719205] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__type_support.c\n'}
+[34.719344] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__type_support.c\n'}
+[34.719483] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__rosidl_typesupport_introspection_c.h\n'}
+[34.719648] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__rosidl_typesupport_introspection_c.h\n'}
+[34.719793] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__rosidl_typesupport_introspection_c.h\n'}
+[34.719934] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__type_support.c\n'}
+[34.720074] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__rosidl_typesupport_introspection_c.h\n'}
+[34.720212] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__type_support.c\n'}
+[34.720350] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__rosidl_typesupport_introspection_c.h\n'}
+[34.720488] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__rosidl_typesupport_introspection_c.h\n'}
+[34.722841] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__rosidl_typesupport_introspection_c.h\n'}
+[34.723042] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__rosidl_typesupport_introspection_c.h\n'}
+[34.723190] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__rosidl_typesupport_introspection_c.h\n'}
+[34.723333] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__type_support.c\n'}
+[34.723477] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__type_support.c\n'}
+[34.723656] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__type_support.c\n'}
+[34.723820] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__type_support.c\n'}
+[34.723967] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__type_support.c\n'}
+[34.724124] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[34.788959] (-) TimerEvent: {}
+[34.806025] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib/libfsd_common_msgs__rosidl_typesupport_introspection_c.so\n'}
+[34.854246] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib/libfsd_common_msgs__rosidl_typesupport_c.so\n'}
+[34.854855] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs\n'}
+[34.855671] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg\n'}
+[34.855863] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/cone_detections_dbscan.hpp\n'}
+[34.856021] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/echiev_message.hpp\n'}
+[34.856170] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/control_command.hpp\n'}
+[34.856314] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/cone_detections.hpp\n'}
+[34.856457] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/cone_dbscan.hpp\n'}
+[34.859216] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[34.859443] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/car_state.hpp\n'}
+[34.859806] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/yolo_cone_detections_track.hpp\n'}
+[34.860802] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/ins_delta.hpp\n'}
+[34.863114] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/decision_flag.hpp\n'}
+[34.863946] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/yolo_cone.hpp\n'}
+[34.864161] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/trajectory_point.hpp\n'}
+[34.864324] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/car_state_dt.hpp\n'}
+[34.864470] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail\n'}
+[34.867569] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__traits.hpp\n'}
+[34.868046] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__type_support.hpp\n'}
+[34.868254] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__traits.hpp\n'}
+[34.868440] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__builder.hpp\n'}
+[34.868677] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__traits.hpp\n'}
+[34.868984] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__type_support.hpp\n'}
+[34.869997] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__builder.hpp\n'}
+[34.872848] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__builder.hpp\n'}
+[34.873056] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__traits.hpp\n'}
+[34.873210] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__struct.hpp\n'}
+[34.873356] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__builder.hpp\n'}
+[34.873514] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__builder.hpp\n'}
+[34.873679] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__struct.hpp\n'}
+[34.873822] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__struct.hpp\n'}
+[34.873965] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__type_support.hpp\n'}
+[34.874199] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__type_support.hpp\n'}
+[34.874436] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__builder.hpp\n'}
+[34.874626] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__struct.hpp\n'}
+[34.874776] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__builder.hpp\n'}
+[34.874917] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__type_support.hpp\n'}
+[34.875059] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__type_support.hpp\n'}
+[34.875230] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__struct.hpp\n'}
+[34.875373] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__builder.hpp\n'}
+[34.877588] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__traits.hpp\n'}
+[34.877887] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__type_support.hpp\n'}
+[34.878048] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__struct.hpp\n'}
+[34.878197] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__builder.hpp\n'}
+[34.878342] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__builder.hpp\n'}
+[34.878482] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__builder.hpp\n'}
+[34.878652] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__traits.hpp\n'}
+[34.878834] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__traits.hpp\n'}
+[34.878975] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__traits.hpp\n'}
+[34.879126] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__struct.hpp\n'}
+[34.879267] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__struct.hpp\n'}
+[34.879406] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__struct.hpp\n'}
+[34.881680] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__type_support.hpp\n'}
+[34.881894] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__traits.hpp\n'}
+[34.882044] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__struct.hpp\n'}
+[34.882187] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__struct.hpp\n'}
+[34.882329] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__struct.hpp\n'}
+[34.882471] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__traits.hpp\n'}
+[34.882676] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__type_support.hpp\n'}
+[34.882826] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__traits.hpp\n'}
+[34.882968] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__traits.hpp\n'}
+[34.883109] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__struct.hpp\n'}
+[34.883250] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__type_support.hpp\n'}
+[34.883390] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__builder.hpp\n'}
+[34.884519] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__type_support.hpp\n'}
+[34.884914] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__traits.hpp\n'}
+[34.886055] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__builder.hpp\n'}
+[34.886242] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__traits.hpp\n'}
+[34.886393] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__type_support.hpp\n'}
+[34.886583] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__struct.hpp\n'}
+[34.886747] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__builder.hpp\n'}
+[34.886892] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__traits.hpp\n'}
+[34.887037] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__builder.hpp\n'}
+[34.887177] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__struct.hpp\n'}
+[34.887375] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__traits.hpp\n'}
+[34.889735] (-) TimerEvent: {}
+[34.890249] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__type_support.hpp\n'}
+[34.890557] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__struct.hpp\n'}
+[34.890743] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__struct.hpp\n'}
+[34.890924] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__traits.hpp\n'}
+[34.891071] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__traits.hpp\n'}
+[34.891215] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__type_support.hpp\n'}
+[34.891356] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__type_support.hpp\n'}
+[34.892544] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__type_support.hpp\n'}
+[34.892933] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__struct.hpp\n'}
+[34.893105] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__traits.hpp\n'}
+[34.893259] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__builder.hpp\n'}
+[34.893404] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__type_support.hpp\n'}
+[34.893571] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__builder.hpp\n'}
+[34.893729] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__struct.hpp\n'}
+[34.893873] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__type_support.hpp\n'}
+[34.894015] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__struct.hpp\n'}
+[34.894154] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__type_support.hpp\n'}
+[34.894291] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__builder.hpp\n'}
+[34.894428] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__builder.hpp\n'}
+[34.897768] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__traits.hpp\n'}
+[34.897984] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__builder.hpp\n'}
+[34.898139] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__builder.hpp\n'}
+[34.898284] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__traits.hpp\n'}
+[34.898463] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__builder.hpp\n'}
+[34.898663] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__type_support.hpp\n'}
+[34.898816] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__struct.hpp\n'}
+[34.898987] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__struct.hpp\n'}
+[34.899127] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__builder.hpp\n'}
+[34.899265] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__traits.hpp\n'}
+[34.899404] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__type_support.hpp\n'}
+[34.900686] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__type_support.hpp\n'}
+[34.900935] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__type_support.hpp\n'}
+[34.901089] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__struct.hpp\n'}
+[34.901233] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__traits.hpp\n'}
+[34.901375] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__builder.hpp\n'}
+[34.901526] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__type_support.hpp\n'}
+[34.901688] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__traits.hpp\n'}
+[34.901829] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__builder.hpp\n'}
+[34.901967] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__builder.hpp\n'}
+[34.902106] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__traits.hpp\n'}
+[34.902244] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__struct.hpp\n'}
+[34.902381] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__struct.hpp\n'}
+[34.906735] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__type_support.hpp\n'}
+[34.907061] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__traits.hpp\n'}
+[34.907243] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__traits.hpp\n'}
+[34.907426] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__struct.hpp\n'}
+[34.907622] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__struct.hpp\n'}
+[34.907780] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__type_support.hpp\n'}
+[34.907930] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__type_support.hpp\n'}
+[34.908077] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__builder.hpp\n'}
+[34.908245] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__struct.hpp\n'}
+[34.908390] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__type_support.hpp\n'}
+[34.909484] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__builder.hpp\n'}
+[34.909919] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__traits.hpp\n'}
+[34.910119] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/skidpad_global_center_line.hpp\n'}
+[34.911715] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/as_state.hpp\n'}
+[34.911962] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/remote_control_command.hpp\n'}
+[34.912120] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/mission.hpp\n'}
+[34.912265] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/visualization.hpp\n'}
+[34.912408] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/cone.hpp\n'}
+[34.912577] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/yolo_cone_detections.hpp\n'}
+[34.912733] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/track.hpp\n'}
+[34.912905] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/yolo_cone_track.hpp\n'}
+[34.913045] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/feedback.hpp\n'}
+[34.913183] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/driving_dynamics.hpp\n'}
+[34.913320] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/time.hpp\n'}
+[34.913457] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/asensing_message.hpp\n'}
+[34.913627] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/map.hpp\n'}
+[34.913774] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/res_and_ami.hpp\n'}
+[34.913912] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/can_frames.hpp\n'}
+[34.914048] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs\n'}
+[34.914184] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg\n'}
+[34.914320] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail\n'}
+[34.914457] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.915806] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.915982] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.916134] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.916299] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.916445] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.916619] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.916867] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.918461] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.920080] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.920266] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.920417] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.920592] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.920745] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.920887] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.921028] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.921171] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.921314] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.921455] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/dds_fastrtps\n'}
+[34.921764] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.921926] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.922068] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.922207] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.922345] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.922487] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.923817] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.924038] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.924201] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.924346] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.924489] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[34.943483] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib/libfsd_common_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[34.944253] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs\n'}
+[34.944699] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg\n'}
+[34.944947] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail\n'}
+[34.945277] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__type_support.cpp\n'}
+[34.945863] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.946617] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__type_support.cpp\n'}
+[34.947168] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.947622] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__type_support.cpp\n'}
+[34.947797] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__type_support.cpp\n'}
+[34.947945] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__type_support.cpp\n'}
+[34.948088] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__type_support.cpp\n'}
+[34.948227] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__type_support.cpp\n'}
+[34.948365] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/track__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.948516] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__type_support.cpp\n'}
+[34.948675] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.950382] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__type_support.cpp\n'}
+[34.950650] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.950824] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__type_support.cpp\n'}
+[34.950975] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections_dbscan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.951150] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__type_support.cpp\n'}
+[34.951299] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__type_support.cpp\n'}
+[34.951442] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.955043] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.955270] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.955435] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.955627] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/asensing_message__type_support.cpp\n'}
+[34.955785] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.955977] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.956124] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.956264] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_detections__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.956403] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/map__type_support.cpp\n'}
+[34.956588] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.956757] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.957008] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__type_support.cpp\n'}
+[34.957161] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.957303] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/mission__type_support.cpp\n'}
+[34.957442] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections__type_support.cpp\n'}
+[34.957620] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.957771] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state_dt__type_support.cpp\n'}
+[34.957911] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/visualization__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.958051] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/as_state__type_support.cpp\n'}
+[34.958190] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/can_frames__type_support.cpp\n'}
+[34.958357] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_detections_track__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.959383] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/skidpad_global_center_line__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.960371] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/res_and_ami__type_support.cpp\n'}
+[34.960579] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__type_support.cpp\n'}
+[34.960751] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/echiev_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.960897] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/car_state__type_support.cpp\n'}
+[34.961039] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/control_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.961179] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/driving_dynamics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.961317] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/remote_control_command__type_support.cpp\n'}
+[34.962194] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.962487] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.962683] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/yolo_cone_track__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.962833] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/feedback__type_support.cpp\n'}
+[34.962976] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/cone_dbscan__type_support.cpp\n'}
+[34.963117] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/decision_flag__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.963258] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/ins_delta__type_support.cpp\n'}
+[34.963398] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/include/fsd_common_msgs/fsd_common_msgs/msg/detail/trajectory_point__type_support.cpp\n'}
+[34.991876] (-) TimerEvent: {}
+[35.032659] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib/libfsd_common_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[35.033623] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib/libfsd_common_msgs__rosidl_typesupport_cpp.so\n'}
+[35.035332] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/environment/pythonpath.sh\n'}
+[35.036151] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/environment/pythonpath.dsv\n'}
+[35.036367] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs-0.0.0-py3.10.egg-info\n'}
+[35.036579] (fsd_common_msgs) StdoutLine: {'line': b'-- Installing: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[35.037433] (fsd_common_msgs) StdoutLine: {'line': b'-- Installing: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[35.038713] (fsd_common_msgs) StdoutLine: {'line': b'-- Installing: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[35.039157] (fsd_common_msgs) StdoutLine: {'line': b'-- Installing: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[35.039617] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs\n'}
+[35.040702] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/_fsd_common_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[35.041235] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/_fsd_common_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[35.043651] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/fsd_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[35.044328] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/__init__.py\n'}
+[35.044526] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg\n'}
+[35.044701] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_can_frames.py\n'}
+[35.046674] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_yolo_cone_track_s.c\n'}
+[35.046874] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_ins_delta.py\n'}
+[35.047028] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_yolo_cone.py\n'}
+[35.047210] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_decision_flag.py\n'}
+[35.047360] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_feedback_s.c\n'}
+[35.049550] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_ins_delta_s.c\n'}
+[35.050021] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_cone.py\n'}
+[35.050238] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_res_and_ami_s.c\n'}
+[35.050396] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_time_s.c\n'}
+[35.050586] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_trajectory_point_s.c\n'}
+[35.050753] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_can_frames_s.c\n'}
+[35.050899] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_remote_control_command_s.c\n'}
+[35.051044] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_cone_dbscan_s.c\n'}
+[35.051184] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_mission_s.c\n'}
+[35.051324] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/__init__.py\n'}
+[35.051461] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_yolo_cone_detections.py\n'}
+[35.053870] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_cone_detections_s.c\n'}
+[35.054090] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_car_state_dt_s.c\n'}
+[35.054248] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_visualization.py\n'}
+[35.054394] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_echiev_message_s.c\n'}
+[35.054562] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_as_state.py\n'}
+[35.054721] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_driving_dynamics.py\n'}
+[35.054864] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_trajectory_point.py\n'}
+[35.055003] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_control_command_s.c\n'}
+[35.055142] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_visualization_s.c\n'}
+[35.055281] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_as_state_s.c\n'}
+[35.058725] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_yolo_cone_detections_s.c\n'}
+[35.059058] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_track_s.c\n'}
+[35.059234] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_time.py\n'}
+[35.059385] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_driving_dynamics_s.c\n'}
+[35.059556] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_feedback.py\n'}
+[35.059770] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_track.py\n'}
+[35.059922] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_res_and_ami.py\n'}
+[35.062607] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_car_state.py\n'}
+[35.062899] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_cone_detections.py\n'}
+[35.063062] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_yolo_cone_track.py\n'}
+[35.063241] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_asensing_message_s.c\n'}
+[35.063386] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_skidpad_global_center_line.py\n'}
+[35.063547] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_car_state_s.c\n'}
+[35.063715] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_skidpad_global_center_line_s.c\n'}
+[35.063860] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_remote_control_command.py\n'}
+[35.064000] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_car_state_dt.py\n'}
+[35.064140] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_map.py\n'}
+[35.064299] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_echiev_message.py\n'}
+[35.064441] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_yolo_cone_s.c\n'}
+[35.068788] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_yolo_cone_detections_track.py\n'}
+[35.068994] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_decision_flag_s.c\n'}
+[35.069149] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_control_command.py\n'}
+[35.069293] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_yolo_cone_detections_track_s.c\n'}
+[35.069434] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_cone_detections_dbscan.py\n'}
+[35.069611] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_map_s.c\n'}
+[35.069759] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_asensing_message.py\n'}
+[35.069899] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_mission.py\n'}
+[35.070038] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_cone_dbscan.py\n'}
+[35.070177] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_cone_detections_dbscan_s.c\n'}
+[35.070315] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg/_cone_s.c\n'}
+[35.070481] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/_fsd_common_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[35.072737] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/fsd_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[35.072941] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/fsd_common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[35.073092] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/libfsd_common_msgs__rosidl_generator_py.so\n'}
+[35.092783] (-) TimerEvent: {}
+[35.195674] (-) TimerEvent: {}
+[35.297785] (-) TimerEvent: {}
+[35.398578] (-) TimerEvent: {}
+[35.499110] (-) TimerEvent: {}
+[35.599590] (-) TimerEvent: {}
+[35.700707] (-) TimerEvent: {}
+[35.801704] (-) TimerEvent: {}
+[35.902791] (-) TimerEvent: {}
+[36.003246] (-) TimerEvent: {}
+[36.103773] (-) TimerEvent: {}
+[36.205635] (-) TimerEvent: {}
+[36.300610] (fsd_common_msgs) StdoutLine: {'line': b"Listing '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs'...\n"}
+[36.301030] (fsd_common_msgs) StdoutLine: {'line': b"Listing '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/msg'...\n"}
+[36.306148] (-) TimerEvent: {}
+[36.408250] (-) TimerEvent: {}
+[36.502112] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/fsd_common_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[36.508410] (-) TimerEvent: {}
+[36.608895] (-) TimerEvent: {}
+[36.666375] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/fsd_common_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[36.709060] (-) TimerEvent: {}
+[36.741414] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages/fsd_common_msgs/fsd_common_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[36.809200] (-) TimerEvent: {}
+[36.841614] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib/libfsd_common_msgs__rosidl_generator_py.so\n'}
+[36.842046] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/ament_index/resource_index/rust_packages/fsd_common_msgs\n'}
+[36.842244] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/rust\n'}
+[36.842444] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/rust/src\n'}
+[36.842667] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/rust/src/msg\n'}
+[36.842829] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/rust/src/msg/rmw.rs\n'}
+[36.842974] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/rust/src/msg.rs\n'}
+[36.843118] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/rust/src/lib.rs\n'}
+[36.843282] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/rust/Cargo.toml\n'}
+[36.843423] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/rust/build.rs\n'}
+[36.843740] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/AsState.idl\n'}
+[36.843927] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/AsensingMessage.idl\n'}
+[36.844118] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/CanFrames.idl\n'}
+[36.844301] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/CarState.idl\n'}
+[36.844604] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/CarStateDt.idl\n'}
+[36.844938] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Cone.idl\n'}
+[36.845203] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/ConeDbscan.idl\n'}
+[36.845456] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/ConeDetections.idl\n'}
+[36.845663] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/ConeDetectionsDbscan.idl\n'}
+[36.845816] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/ControlCommand.idl\n'}
+[36.845955] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/DecisionFlag.idl\n'}
+[36.846095] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/DrivingDynamics.idl\n'}
+[36.846234] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/EchievMessage.idl\n'}
+[36.846374] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Feedback.idl\n'}
+[36.847062] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/InsDelta.idl\n'}
+[36.848036] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Map.idl\n'}
+[36.848914] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Mission.idl\n'}
+[36.849993] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/RemoteControlCommand.idl\n'}
+[36.850187] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/ResAndAmi.idl\n'}
+[36.850349] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/SkidpadGlobalCenterLine.idl\n'}
+[36.850540] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Time.idl\n'}
+[36.851773] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Track.idl\n'}
+[36.852814] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/TrajectoryPoint.idl\n'}
+[36.853995] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Visualization.idl\n'}
+[36.854760] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/YoloCone.idl\n'}
+[36.856210] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/YoloConeDetections.idl\n'}
+[36.857187] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/YoloConeDetectionsTrack.idl\n'}
+[36.857863] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/YoloConeTrack.idl\n'}
+[36.859620] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/AsState.msg\n'}
+[36.860258] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/AsensingMessage.msg\n'}
+[36.860850] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/CanFrames.msg\n'}
+[36.862080] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/CarState.msg\n'}
+[36.863173] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/CarStateDt.msg\n'}
+[36.863853] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Cone.msg\n'}
+[36.864864] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/ConeDbscan.msg\n'}
+[36.865077] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/ConeDetections.msg\n'}
+[36.865234] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/ConeDetectionsDbscan.msg\n'}
+[36.865378] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/ControlCommand.msg\n'}
+[36.865542] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/DecisionFlag.msg\n'}
+[36.865718] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/DrivingDynamics.msg\n'}
+[36.866799] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/EchievMessage.msg\n'}
+[36.867015] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Feedback.msg\n'}
+[36.867173] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/InsDelta.msg\n'}
+[36.867332] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Map.msg\n'}
+[36.867479] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Mission.msg\n'}
+[36.867659] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/RemoteControlCommand.msg\n'}
+[36.867837] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/ResAndAmi.msg\n'}
+[36.867980] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/SkidpadGlobalCenterLine.msg\n'}
+[36.868121] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Time.msg\n'}
+[36.868272] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Track.msg\n'}
+[36.868454] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/TrajectoryPoint.msg\n'}
+[36.868651] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/Visualization.msg\n'}
+[36.869621] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/YoloCone.msg\n'}
+[36.869826] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/YoloConeDetections.msg\n'}
+[36.869978] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/YoloConeDetectionsTrack.msg\n'}
+[36.870123] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/msg/YoloConeTrack.msg\n'}
+[36.870270] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/ament_index/resource_index/package_run_dependencies/fsd_common_msgs\n'}
+[36.870415] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/ament_index/resource_index/parent_prefix_path/fsd_common_msgs\n'}
+[36.870771] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/environment/ament_prefix_path.sh\n'}
+[36.870947] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/environment/ament_prefix_path.dsv\n'}
+[36.871119] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/environment/path.sh\n'}
+[36.871266] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/environment/path.dsv\n'}
+[36.871408] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/local_setup.bash\n'}
+[36.871579] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/local_setup.sh\n'}
+[36.871737] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/local_setup.zsh\n'}
+[36.871880] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/local_setup.dsv\n'}
+[36.872017] (fsd_common_msgs) StdoutLine: {'line': b'-- Installing: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/package.dsv\n'}
+[36.909350] (-) TimerEvent: {}
+[36.945703] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/ament_index/resource_index/packages/fsd_common_msgs\n'}
+[36.997291] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/export_fsd_common_msgs__rosidl_generator_cExport.cmake\n'}
+[36.997742] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/export_fsd_common_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[37.009510] (-) TimerEvent: {}
+[37.037713] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/export_fsd_common_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[37.038092] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/export_fsd_common_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[37.055917] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/fsd_common_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[37.056451] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/fsd_common_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[37.089140] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/fsd_common_msgs__rosidl_typesupport_cExport.cmake\n'}
+[37.090604] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/fsd_common_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[37.110167] (-) TimerEvent: {}
+[37.118113] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/export_fsd_common_msgs__rosidl_generator_cppExport.cmake\n'}
+[37.139139] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/export_fsd_common_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[37.139594] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/export_fsd_common_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[37.157025] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/fsd_common_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[37.158543] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/fsd_common_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[37.185706] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/fsd_common_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[37.186026] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/fsd_common_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[37.208558] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/export_fsd_common_msgs__rosidl_generator_pyExport.cmake\n'}
+[37.209568] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/export_fsd_common_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[37.209828] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[37.210369] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[37.210990] (-) TimerEvent: {}
+[37.212038] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[37.212729] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[37.212934] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[37.213099] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[37.213247] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[37.213389] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/fsd_common_msgsConfig.cmake\n'}
+[37.214687] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake/fsd_common_msgsConfig-version.cmake\n'}
+[37.215600] (fsd_common_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/package.xml\n'}
+[37.276749] (fsd_common_msgs) CommandEnded: {'returncode': 0}
+[37.311143] (-) TimerEvent: {}
+[37.411698] (-) TimerEvent: {}
+[37.512254] (-) TimerEvent: {}
+[37.612819] (-) TimerEvent: {}
+[37.713382] (-) TimerEvent: {}
+[37.813988] (-) TimerEvent: {}
+[37.914764] (-) TimerEvent: {}
+[38.015362] (-) TimerEvent: {}
+[38.116359] (-) TimerEvent: {}
+[38.216808] (-) TimerEvent: {}
+[38.317607] (-) TimerEvent: {}
+[38.419591] (-) TimerEvent: {}
+[38.520031] (-) TimerEvent: {}
+[38.621628] (-) TimerEvent: {}
+[38.723621] (-) TimerEvent: {}
+[38.824120] (-) TimerEvent: {}
+[38.924632] (-) TimerEvent: {}
+[39.025479] (-) TimerEvent: {}
+[39.126607] (-) TimerEvent: {}
+[39.227223] (-) TimerEvent: {}
+[39.328033] (-) TimerEvent: {}
+[39.429743] (-) TimerEvent: {}
+[39.530710] (-) TimerEvent: {}
+[39.633459] (-) TimerEvent: {}
+[39.734063] (-) TimerEvent: {}
+[39.836781] (-) TimerEvent: {}
+[39.937224] (-) TimerEvent: {}
+[40.038699] (-) TimerEvent: {}
+[40.139460] (-) TimerEvent: {}
+[40.240165] (-) TimerEvent: {}
+[40.266563] (fsd_common_msgs) JobEnded: {'identifier': 'fsd_common_msgs', 'rc': 0}
+[40.326921] (cone_visualizer) JobStarted: {'identifier': 'cone_visualizer'}
+[40.341115] (-) TimerEvent: {}
+[40.442237] (-) TimerEvent: {}
+[40.450399] (cone_visualizer) JobProgress: {'identifier': 'cone_visualizer', 'progress': 'cmake'}
+[40.543604] (-) TimerEvent: {}
+[40.619805] (cone_visualizer) JobProgress: {'identifier': 'cone_visualizer', 'progress': 'build'}
+[40.619945] (cone_visualizer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jack/ros2_homework_advanced/build/cone_visualizer', '--', '-j2', '-l2'], 'cwd': '/home/jack/ros2_homework_advanced/build/cone_visualizer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jack'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jack'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '9453'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4a5fbc56cdc9235e199dae996a20d8d3'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jack/ros2_homework_advanced/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jack'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jack'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jack-270E5J-2570EJ:@/tmp/.ICE-unix/9453,unix/jack-270E5J-2570EJ:/tmp/.ICE-unix/9453'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d90ee308_6c48_42e1_bd70_997138279458'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZB7FQ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.261'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jack/ros2_homework_advanced/install/cone_visualizer:/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('INSIDE_NAUTILUS_PYTHON', ''), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jack/ros2_homework_advanced/build/cone_visualizer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4a5fbc56cdc9235e199dae996a20d8d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/jack/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/home/jack/ros2_homework_advanced/install/cone_visualizer:/opt/ros/humble')]), 'shell': False}
+[40.644599] (-) TimerEvent: {}
+[40.748833] (-) TimerEvent: {}
+[40.849277] (-) TimerEvent: {}
+[40.950259] (-) TimerEvent: {}
+[41.051426] (-) TimerEvent: {}
+[41.152265] (-) TimerEvent: {}
+[41.253381] (-) TimerEvent: {}
+[41.356732] (-) TimerEvent: {}
+[41.457227] (-) TimerEvent: {}
+[41.558618] (-) TimerEvent: {}
+[41.659083] (-) TimerEvent: {}
+[41.761357] (-) TimerEvent: {}
+[41.862142] (-) TimerEvent: {}
+[41.962660] (-) TimerEvent: {}
+[42.063944] (-) TimerEvent: {}
+[42.096214] (cone_visualizer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cone_visualizer_node\x1b[0m\n'}
+[42.165469] (-) TimerEvent: {}
+[42.179877] (cone_visualizer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cone_visualizer_node.dir/src/cone_visualizer_node.cpp.o\x1b[0m\n'}
+[42.267627] (-) TimerEvent: {}
+[42.368140] (-) TimerEvent: {}
+[42.468597] (-) TimerEvent: {}
+[42.569707] (-) TimerEvent: {}
+[42.670556] (-) TimerEvent: {}
+[42.771494] (-) TimerEvent: {}
+[42.872951] (-) TimerEvent: {}
+[42.973436] (-) TimerEvent: {}
+[43.073958] (-) TimerEvent: {}
+[43.174821] (-) TimerEvent: {}
+[43.281608] (-) TimerEvent: {}
+[43.383628] (-) TimerEvent: {}
+[43.484148] (-) TimerEvent: {}
+[43.586650] (-) TimerEvent: {}
+[43.688591] (-) TimerEvent: {}
+[43.789089] (-) TimerEvent: {}
+[43.890746] (-) TimerEvent: {}
+[43.992608] (-) TimerEvent: {}
+[44.096754] (-) TimerEvent: {}
+[44.198603] (-) TimerEvent: {}
+[44.299290] (-) TimerEvent: {}
+[44.401013] (-) TimerEvent: {}
+[44.502632] (-) TimerEvent: {}
+[44.606687] (-) TimerEvent: {}
+[44.708611] (-) TimerEvent: {}
+[44.814625] (-) TimerEvent: {}
+[44.915958] (-) TimerEvent: {}
+[45.018467] (-) TimerEvent: {}
+[45.120465] (-) TimerEvent: {}
+[45.225868] (-) TimerEvent: {}
+[45.327771] (-) TimerEvent: {}
+[45.428682] (-) TimerEvent: {}
+[45.529352] (-) TimerEvent: {}
+[45.632184] (-) TimerEvent: {}
+[45.734585] (-) TimerEvent: {}
+[45.836888] (-) TimerEvent: {}
+[45.943774] (-) TimerEvent: {}
+[46.046267] (-) TimerEvent: {}
+[46.146911] (-) TimerEvent: {}
+[46.248594] (-) TimerEvent: {}
+[46.350566] (-) TimerEvent: {}
+[46.451664] (-) TimerEvent: {}
+[46.553170] (-) TimerEvent: {}
+[46.653673] (-) TimerEvent: {}
+[46.754765] (-) TimerEvent: {}
+[46.856131] (-) TimerEvent: {}
+[46.956698] (-) TimerEvent: {}
+[47.059778] (-) TimerEvent: {}
+[47.160219] (-) TimerEvent: {}
+[47.261981] (-) TimerEvent: {}
+[47.363792] (-) TimerEvent: {}
+[47.465991] (-) TimerEvent: {}
+[47.569796] (-) TimerEvent: {}
+[47.670251] (-) TimerEvent: {}
+[47.772773] (-) TimerEvent: {}
+[47.873235] (-) TimerEvent: {}
+[47.974772] (-) TimerEvent: {}
+[48.076765] (-) TimerEvent: {}
+[48.180656] (-) TimerEvent: {}
+[48.281146] (-) TimerEvent: {}
+[48.383558] (-) TimerEvent: {}
+[48.484154] (-) TimerEvent: {}
+[48.584614] (-) TimerEvent: {}
+[48.685256] (-) TimerEvent: {}
+[48.786601] (-) TimerEvent: {}
+[48.887605] (-) TimerEvent: {}
+[48.991963] (-) TimerEvent: {}
+[49.093642] (-) TimerEvent: {}
+[49.194315] (-) TimerEvent: {}
+[49.295809] (-) TimerEvent: {}
+[49.397347] (-) TimerEvent: {}
+[49.499371] (-) TimerEvent: {}
+[49.601162] (-) TimerEvent: {}
+[49.704151] (-) TimerEvent: {}
+[49.804603] (-) TimerEvent: {}
+[49.906034] (-) TimerEvent: {}
+[50.009014] (-) TimerEvent: {}
+[50.109473] (-) TimerEvent: {}
+[50.210897] (-) TimerEvent: {}
+[50.312685] (-) TimerEvent: {}
+[50.413597] (-) TimerEvent: {}
+[50.515791] (-) TimerEvent: {}
+[50.616753] (-) TimerEvent: {}
+[50.718599] (-) TimerEvent: {}
+[50.819056] (-) TimerEvent: {}
+[50.921527] (-) TimerEvent: {}
+[51.024219] (-) TimerEvent: {}
+[51.130772] (-) TimerEvent: {}
+[51.231381] (-) TimerEvent: {}
+[51.332182] (-) TimerEvent: {}
+[51.432797] (-) TimerEvent: {}
+[51.533399] (-) TimerEvent: {}
+[51.635310] (-) TimerEvent: {}
+[51.735787] (-) TimerEvent: {}
+[51.839721] (-) TimerEvent: {}
+[51.940955] (-) TimerEvent: {}
+[52.041512] (-) TimerEvent: {}
+[52.142598] (-) TimerEvent: {}
+[52.245611] (-) TimerEvent: {}
+[52.347786] (-) TimerEvent: {}
+[52.448368] (-) TimerEvent: {}
+[52.549590] (-) TimerEvent: {}
+[52.651598] (-) TimerEvent: {}
+[52.752346] (-) TimerEvent: {}
+[52.855622] (-) TimerEvent: {}
+[52.956290] (-) TimerEvent: {}
+[53.058600] (-) TimerEvent: {}
+[53.159374] (-) TimerEvent: {}
+[53.262407] (-) TimerEvent: {}
+[53.362913] (-) TimerEvent: {}
+[53.466250] (-) TimerEvent: {}
+[53.566833] (-) TimerEvent: {}
+[53.667476] (-) TimerEvent: {}
+[53.771634] (-) TimerEvent: {}
+[53.875600] (-) TimerEvent: {}
+[53.977607] (-) TimerEvent: {}
+[54.078142] (-) TimerEvent: {}
+[54.180632] (-) TimerEvent: {}
+[54.284621] (-) TimerEvent: {}
+[54.385576] (-) TimerEvent: {}
+[54.487606] (-) TimerEvent: {}
+[54.590620] (-) TimerEvent: {}
+[54.693739] (-) TimerEvent: {}
+[54.797556] (-) TimerEvent: {}
+[54.901643] (-) TimerEvent: {}
+[55.006146] (-) TimerEvent: {}
+[55.107098] (-) TimerEvent: {}
+[55.207619] (-) TimerEvent: {}
+[55.308955] (-) TimerEvent: {}
+[55.410670] (-) TimerEvent: {}
+[55.512043] (-) TimerEvent: {}
+[55.614603] (-) TimerEvent: {}
+[55.715330] (-) TimerEvent: {}
+[55.816100] (-) TimerEvent: {}
+[55.916786] (-) TimerEvent: {}
+[56.017568] (-) TimerEvent: {}
+[56.122554] (-) TimerEvent: {}
+[56.224603] (-) TimerEvent: {}
+[56.325239] (-) TimerEvent: {}
+[56.428607] (-) TimerEvent: {}
+[56.530790] (-) TimerEvent: {}
+[56.635495] (-) TimerEvent: {}
+[56.738616] (-) TimerEvent: {}
+[56.839097] (-) TimerEvent: {}
+[56.939934] (-) TimerEvent: {}
+[57.041942] (-) TimerEvent: {}
+[57.146810] (-) TimerEvent: {}
+[57.247664] (-) TimerEvent: {}
+[57.348313] (-) TimerEvent: {}
+[57.449924] (-) TimerEvent: {}
+[57.551606] (-) TimerEvent: {}
+[57.652054] (-) TimerEvent: {}
+[57.754881] (-) TimerEvent: {}
+[57.858129] (-) TimerEvent: {}
+[57.962915] (-) TimerEvent: {}
+[58.063451] (-) TimerEvent: {}
+[58.165833] (-) TimerEvent: {}
+[58.269605] (-) TimerEvent: {}
+[58.370068] (-) TimerEvent: {}
+[58.471791] (-) TimerEvent: {}
+[58.574756] (-) TimerEvent: {}
+[58.675260] (-) TimerEvent: {}
+[58.778258] (-) TimerEvent: {}
+[58.879209] (-) TimerEvent: {}
+[58.980622] (-) TimerEvent: {}
+[59.082286] (-) TimerEvent: {}
+[59.187390] (-) TimerEvent: {}
+[59.287917] (-) TimerEvent: {}
+[59.388543] (-) TimerEvent: {}
+[59.490092] (-) TimerEvent: {}
+[59.591984] (-) TimerEvent: {}
+[59.693362] (-) TimerEvent: {}
+[59.794608] (-) TimerEvent: {}
+[59.899627] (-) TimerEvent: {}
+[60.000138] (-) TimerEvent: {}
+[60.103640] (-) TimerEvent: {}
+[60.204113] (-) TimerEvent: {}
+[60.305604] (-) TimerEvent: {}
+[60.406784] (-) TimerEvent: {}
+[60.509806] (-) TimerEvent: {}
+[60.610259] (-) TimerEvent: {}
+[60.712622] (-) TimerEvent: {}
+[60.814613] (-) TimerEvent: {}
+[60.915600] (-) TimerEvent: {}
+[61.017789] (-) TimerEvent: {}
+[61.119603] (-) TimerEvent: {}
+[61.221125] (-) TimerEvent: {}
+[61.322616] (-) TimerEvent: {}
+[61.428520] (-) TimerEvent: {}
+[61.528994] (-) TimerEvent: {}
+[61.629610] (-) TimerEvent: {}
+[61.731953] (-) TimerEvent: {}
+[61.833601] (-) TimerEvent: {}
+[61.935755] (-) TimerEvent: {}
+[62.041716] (-) TimerEvent: {}
+[62.143838] (-) TimerEvent: {}
+[62.244287] (-) TimerEvent: {}
+[62.348608] (-) TimerEvent: {}
+[62.449230] (-) TimerEvent: {}
+[62.551898] (-) TimerEvent: {}
+[62.655626] (-) TimerEvent: {}
+[62.756947] (-) TimerEvent: {}
+[62.859861] (-) TimerEvent: {}
+[62.960682] (-) TimerEvent: {}
+[63.063789] (-) TimerEvent: {}
+[63.166638] (-) TimerEvent: {}
+[63.270247] (-) TimerEvent: {}
+[63.372609] (-) TimerEvent: {}
+[63.473103] (-) TimerEvent: {}
+[63.578362] (-) TimerEvent: {}
+[63.680071] (-) TimerEvent: {}
+[63.780571] (-) TimerEvent: {}
+[63.883597] (-) TimerEvent: {}
+[63.985599] (-) TimerEvent: {}
+[64.092268] (-) TimerEvent: {}
+[64.192748] (-) TimerEvent: {}
+[64.293454] (-) TimerEvent: {}
+[64.394231] (-) TimerEvent: {}
+[64.495995] (-) TimerEvent: {}
+[64.597400] (-) TimerEvent: {}
+[64.700474] (-) TimerEvent: {}
+[64.802829] (-) TimerEvent: {}
+[64.903627] (-) TimerEvent: {}
+[65.004373] (-) TimerEvent: {}
+[65.107599] (-) TimerEvent: {}
+[65.208481] (-) TimerEvent: {}
+[65.308954] (-) TimerEvent: {}
+[65.409398] (-) TimerEvent: {}
+[65.514616] (-) TimerEvent: {}
+[65.616079] (-) TimerEvent: {}
+[65.718608] (-) TimerEvent: {}
+[65.822135] (-) TimerEvent: {}
+[65.923774] (-) TimerEvent: {}
+[66.024334] (-) TimerEvent: {}
+[66.126648] (-) TimerEvent: {}
+[66.229376] (-) TimerEvent: {}
+[66.331623] (-) TimerEvent: {}
+[66.432262] (-) TimerEvent: {}
+[66.537357] (-) TimerEvent: {}
+[66.639910] (-) TimerEvent: {}
+[66.742030] (-) TimerEvent: {}
+[66.846625] (-) TimerEvent: {}
+[66.947792] (-) TimerEvent: {}
+[67.048271] (-) TimerEvent: {}
+[67.149838] (-) TimerEvent: {}
+[67.251615] (-) TimerEvent: {}
+[67.353612] (-) TimerEvent: {}
+[67.454607] (-) TimerEvent: {}
+[67.555607] (-) TimerEvent: {}
+[67.659046] (-) TimerEvent: {}
+[67.762269] (-) TimerEvent: {}
+[67.862928] (-) TimerEvent: {}
+[67.963580] (-) TimerEvent: {}
+[68.066062] (-) TimerEvent: {}
+[68.166701] (-) TimerEvent: {}
+[68.268748] (-) TimerEvent: {}
+[68.372617] (-) TimerEvent: {}
+[68.473068] (-) TimerEvent: {}
+[68.574072] (-) TimerEvent: {}
+[68.675698] (-) TimerEvent: {}
+[68.776321] (-) TimerEvent: {}
+[68.877262] (-) TimerEvent: {}
+[68.981557] (-) TimerEvent: {}
+[69.082803] (-) TimerEvent: {}
+[69.186834] (-) TimerEvent: {}
+[69.287584] (-) TimerEvent: {}
+[69.389882] (-) TimerEvent: {}
+[69.490543] (-) TimerEvent: {}
+[69.591340] (-) TimerEvent: {}
+[69.694173] (-) TimerEvent: {}
+[69.795615] (-) TimerEvent: {}
+[69.896353] (-) TimerEvent: {}
+[69.999999] (-) TimerEvent: {}
+[70.101689] (-) TimerEvent: {}
+[70.203975] (-) TimerEvent: {}
+[70.307942] (-) TimerEvent: {}
+[70.408461] (-) TimerEvent: {}
+[70.510186] (-) TimerEvent: {}
+[70.614835] (-) TimerEvent: {}
+[70.715618] (-) TimerEvent: {}
+[70.818607] (-) TimerEvent: {}
+[70.919070] (-) TimerEvent: {}
+[71.023823] (-) TimerEvent: {}
+[71.125654] (-) TimerEvent: {}
+[71.226807] (-) TimerEvent: {}
+[71.328643] (-) TimerEvent: {}
+[71.431060] (-) TimerEvent: {}
+[71.532619] (-) TimerEvent: {}
+[71.634564] (-) TimerEvent: {}
+[71.736717] (-) TimerEvent: {}
+[71.839605] (-) TimerEvent: {}
+[71.940062] (-) TimerEvent: {}
+[72.040620] (-) TimerEvent: {}
+[72.143739] (-) TimerEvent: {}
+[72.244187] (-) TimerEvent: {}
+[72.346768] (-) TimerEvent: {}
+[72.450280] (-) TimerEvent: {}
+[72.552444] (-) TimerEvent: {}
+[72.652919] (-) TimerEvent: {}
+[72.755952] (-) TimerEvent: {}
+[72.856610] (-) TimerEvent: {}
+[72.959029] (-) TimerEvent: {}
+[73.061167] (-) TimerEvent: {}
+[73.162609] (-) TimerEvent: {}
+[73.264831] (-) TimerEvent: {}
+[73.368727] (-) TimerEvent: {}
+[73.469478] (-) TimerEvent: {}
+[73.571962] (-) TimerEvent: {}
+[73.673637] (-) TimerEvent: {}
+[73.774089] (-) TimerEvent: {}
+[73.874581] (-) TimerEvent: {}
+[73.975989] (-) TimerEvent: {}
+[74.077801] (-) TimerEvent: {}
+[74.179257] (-) TimerEvent: {}
+[74.281263] (-) TimerEvent: {}
+[74.383634] (-) TimerEvent: {}
+[74.485451] (-) TimerEvent: {}
+[74.586292] (-) TimerEvent: {}
+[74.688026] (-) TimerEvent: {}
+[74.789620] (-) TimerEvent: {}
+[74.916268] (-) TimerEvent: {}
+[75.019434] (-) TimerEvent: {}
+[75.121794] (-) TimerEvent: {}
+[75.222244] (-) TimerEvent: {}
+[75.322790] (-) TimerEvent: {}
+[75.423409] (-) TimerEvent: {}
+[75.525975] (-) TimerEvent: {}
+[75.626616] (-) TimerEvent: {}
+[75.727281] (-) TimerEvent: {}
+[75.828938] (-) TimerEvent: {}
+[75.929717] (-) TimerEvent: {}
+[76.032594] (-) TimerEvent: {}
+[76.133425] (-) TimerEvent: {}
+[76.234170] (-) TimerEvent: {}
+[76.335109] (-) TimerEvent: {}
+[76.437138] (-) TimerEvent: {}
+[76.538649] (-) TimerEvent: {}
+[76.640637] (-) TimerEvent: {}
+[76.741477] (-) TimerEvent: {}
+[76.844777] (-) TimerEvent: {}
+[76.952603] (-) TimerEvent: {}
+[77.053088] (-) TimerEvent: {}
+[77.154185] (-) TimerEvent: {}
+[77.255082] (-) TimerEvent: {}
+[77.356612] (-) TimerEvent: {}
+[77.457558] (-) TimerEvent: {}
+[77.558444] (-) TimerEvent: {}
+[77.659754] (-) TimerEvent: {}
+[77.765089] (-) TimerEvent: {}
+[77.865935] (-) TimerEvent: {}
+[77.967864] (-) TimerEvent: {}
+[78.070102] (-) TimerEvent: {}
+[78.172608] (-) TimerEvent: {}
+[78.274604] (-) TimerEvent: {}
+[78.375152] (-) TimerEvent: {}
+[78.477605] (-) TimerEvent: {}
+[78.578070] (-) TimerEvent: {}
+[78.679717] (-) TimerEvent: {}
+[78.781704] (-) TimerEvent: {}
+[78.882245] (-) TimerEvent: {}
+[78.984609] (-) TimerEvent: {}
+[79.085176] (-) TimerEvent: {}
+[79.187359] (-) TimerEvent: {}
+[79.287986] (-) TimerEvent: {}
+[79.388794] (-) TimerEvent: {}
+[79.490603] (-) TimerEvent: {}
+[79.592625] (-) TimerEvent: {}
+[79.693599] (-) TimerEvent: {}
+[79.796215] (-) TimerEvent: {}
+[79.898542] (-) TimerEvent: {}
+[80.001761] (-) TimerEvent: {}
+[80.103810] (-) TimerEvent: {}
+[80.207802] (-) TimerEvent: {}
+[80.309871] (-) TimerEvent: {}
+[80.412601] (-) TimerEvent: {}
+[80.516308] (-) TimerEvent: {}
+[80.617803] (-) TimerEvent: {}
+[80.721619] (-) TimerEvent: {}
+[80.822155] (-) TimerEvent: {}
+[80.924040] (-) TimerEvent: {}
+[81.025795] (-) TimerEvent: {}
+[81.127620] (-) TimerEvent: {}
+[81.231607] (-) TimerEvent: {}
+[81.335603] (-) TimerEvent: {}
+[81.439287] (-) TimerEvent: {}
+[81.539816] (-) TimerEvent: {}
+[81.640263] (-) TimerEvent: {}
+[81.744807] (-) TimerEvent: {}
+[81.845302] (-) TimerEvent: {}
+[81.941153] (cone_visualizer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cone_visualizer_node\x1b[0m\n'}
+[81.945441] (-) TimerEvent: {}
+[82.046705] (-) TimerEvent: {}
+[82.147175] (-) TimerEvent: {}
+[82.248909] (-) TimerEvent: {}
+[82.350391] (-) TimerEvent: {}
+[82.451982] (-) TimerEvent: {}
+[82.552825] (-) TimerEvent: {}
+[82.653338] (-) TimerEvent: {}
+[82.755608] (-) TimerEvent: {}
+[82.856260] (-) TimerEvent: {}
+[82.958531] (-) TimerEvent: {}
+[83.058999] (-) TimerEvent: {}
+[83.159678] (-) TimerEvent: {}
+[83.261810] (-) TimerEvent: {}
+[83.362297] (-) TimerEvent: {}
+[83.463781] (-) TimerEvent: {}
+[83.565628] (-) TimerEvent: {}
+[83.666774] (-) TimerEvent: {}
+[83.767620] (-) TimerEvent: {}
+[83.868264] (-) TimerEvent: {}
+[83.969084] (-) TimerEvent: {}
+[84.070787] (-) TimerEvent: {}
+[84.171894] (-) TimerEvent: {}
+[84.273605] (-) TimerEvent: {}
+[84.374113] (-) TimerEvent: {}
+[84.475944] (-) TimerEvent: {}
+[84.576802] (-) TimerEvent: {}
+[84.678491] (-) TimerEvent: {}
+[84.780115] (-) TimerEvent: {}
+[84.882734] (-) TimerEvent: {}
+[84.983189] (-) TimerEvent: {}
+[85.083960] (-) TimerEvent: {}
+[85.185855] (-) TimerEvent: {}
+[85.286318] (-) TimerEvent: {}
+[85.387682] (-) TimerEvent: {}
+[85.488942] (-) TimerEvent: {}
+[85.590380] (-) TimerEvent: {}
+[85.695612] (-) TimerEvent: {}
+[85.797124] (-) TimerEvent: {}
+[85.900661] (-) TimerEvent: {}
+[86.001659] (-) TimerEvent: {}
+[86.103880] (-) TimerEvent: {}
+[86.204585] (-) TimerEvent: {}
+[86.309143] (-) TimerEvent: {}
+[86.329838] (cone_visualizer) StdoutLine: {'line': b'[100%] Built target cone_visualizer_node\n'}
+[86.384721] (cone_visualizer) CommandEnded: {'returncode': 0}
+[86.403636] (cone_visualizer) JobProgress: {'identifier': 'cone_visualizer', 'progress': 'install'}
+[86.407794] (cone_visualizer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jack/ros2_homework_advanced/build/cone_visualizer'], 'cwd': '/home/jack/ros2_homework_advanced/build/cone_visualizer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jack'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jack'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '9453'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4a5fbc56cdc9235e199dae996a20d8d3'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jack/ros2_homework_advanced/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jack'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jack'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jack-270E5J-2570EJ:@/tmp/.ICE-unix/9453,unix/jack-270E5J-2570EJ:/tmp/.ICE-unix/9453'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d90ee308_6c48_42e1_bd70_997138279458'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZB7FQ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.261'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jack/ros2_homework_advanced/install/cone_visualizer:/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('INSIDE_NAUTILUS_PYTHON', ''), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jack/ros2_homework_advanced/build/cone_visualizer'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=4a5fbc56cdc9235e199dae996a20d8d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/jack/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/home/jack/ros2_homework_advanced/install/cone_visualizer:/opt/ros/humble')]), 'shell': False}
+[86.411367] (-) TimerEvent: {}
+[86.438172] (cone_visualizer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[86.505611] (cone_visualizer) StdoutLine: {'line': b'-- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/lib/cone_visualizer/cone_visualizer_node\n'}
+[86.511671] (-) TimerEvent: {}
+[86.520694] (cone_visualizer) StdoutLine: {'line': b'-- Set runtime path of "/home/jack/ros2_homework_advanced/install/cone_visualizer/lib/cone_visualizer/cone_visualizer_node" to ""\n'}
+[86.522655] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/ament_index/resource_index/package_run_dependencies/cone_visualizer\n'}
+[86.522880] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/ament_index/resource_index/parent_prefix_path/cone_visualizer\n'}
+[86.523050] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/environment/ament_prefix_path.sh\n'}
+[86.523209] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/environment/ament_prefix_path.dsv\n'}
+[86.523362] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/environment/path.sh\n'}
+[86.525134] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/environment/path.dsv\n'}
+[86.525402] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/local_setup.bash\n'}
+[86.525604] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/local_setup.sh\n'}
+[86.525773] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/local_setup.zsh\n'}
+[86.525929] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/local_setup.dsv\n'}
+[86.526081] (cone_visualizer) StdoutLine: {'line': b'-- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.dsv\n'}
+[86.560610] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/ament_index/resource_index/packages/cone_visualizer\n'}
+[86.560961] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/cmake/cone_visualizerConfig.cmake\n'}
+[86.561145] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/cmake/cone_visualizerConfig-version.cmake\n'}
+[86.561311] (cone_visualizer) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.xml\n'}
+[86.568736] (cone_visualizer) CommandEnded: {'returncode': 0}
+[86.613369] (-) TimerEvent: {}
+[86.670799] (cone_visualizer) JobEnded: {'identifier': 'cone_visualizer', 'rc': 0}
+[86.675603] (-) EventReactorShutdown: {}

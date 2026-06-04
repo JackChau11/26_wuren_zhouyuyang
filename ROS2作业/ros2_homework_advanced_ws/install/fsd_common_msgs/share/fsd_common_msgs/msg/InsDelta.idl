@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/InsDelta.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module fsd_common_msgs {
+  module msg {
+    struct InsDelta {
+      std_msgs::msg::Header header;
+
+      float total_omega;
+
+      float total_distance_x;
+
+      float total_distance_y;
+    };
+  };
+};

@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/RemoteControlCommand.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module fsd_common_msgs {
+  module msg {
+    struct RemoteControlCommand {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Throttle value between [-1, 1]")
+      float throttle;
+
+      @verbatim (language="comment", text=
+        "Steering angle value between [-1, 1], where left < 0, right > 0")
+      float steering_angle;
+
+      @verbatim (language="comment", text=
+        "0,1")
+      float go;
+
+      @verbatim (language="comment", text=
+        "0,1")
+      float stop;
+
+      @verbatim (language="comment", text=
+        "0,1")
+      float test1;
+    };
+  };
+};

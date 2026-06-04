@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/SkidpadGlobalCenterLine.msg
+// generated code does not contain a copyright notice
+
+#include "nav_msgs/msg/Path.idl"
+
+module fsd_common_msgs {
+  module msg {
+    struct SkidpadGlobalCenterLine {
+      nav_msgs::msg::Path global_path;
+
+      boolean is_reach_mid;
+    };
+  };
+};

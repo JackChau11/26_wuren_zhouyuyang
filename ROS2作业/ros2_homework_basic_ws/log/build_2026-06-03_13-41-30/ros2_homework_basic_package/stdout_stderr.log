@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_figure8[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_figure8.dir/src/turtle_figure8.cpp.o[0m
+[100%] [32m[1mLinking CXX executable turtle_figure8[0m
+[100%] Built target turtle_figure8
+-- Install configuration: ""
+-- Installing: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/lib/ros2_homework_basic_package/turtle_figure8
+-- Set runtime path of "/home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/lib/ros2_homework_basic_package/turtle_figure8" to ""
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/launch
+-- Installing: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/launch/turtle_figure8.launch.py
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/config
+-- Installing: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/config/turtle_figure8.yaml
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/package_run_dependencies/ros2_homework_basic_package
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/parent_prefix_path/ros2_homework_basic_package
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/path.sh
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/path.dsv
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.bash
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.sh
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.zsh
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.dsv
+-- Installing: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/package.dsv
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/packages/ros2_homework_basic_package
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/cmake/ros2_homework_basic_packageConfig.cmake
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/cmake/ros2_homework_basic_packageConfig-version.cmake
+-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/package.xml

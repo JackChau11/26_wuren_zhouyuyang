@@ -1,0 +1,62 @@
+[0.029s] Invoking command in '/home/jack/ros2_homework_advanced/build/cone_visualizer': AMENT_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jack/ros2_homework_advanced/src/cone_visualizer -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_homework_advanced/install/cone_visualizer
+[0.343s] -- The C compiler identification is GNU 11.4.0
+[0.613s] -- The CXX compiler identification is GNU 11.4.0
+[0.646s] -- Detecting C compiler ABI info
+[1.056s] -- Detecting C compiler ABI info - done
+[1.097s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.097s] -- Detecting C compile features
+[1.101s] -- Detecting C compile features - done
+[1.137s] -- Detecting CXX compiler ABI info
+[1.508s] -- Detecting CXX compiler ABI info - done
+[1.546s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.546s] -- Detecting CXX compile features
+[1.549s] -- Detecting CXX compile features - done
+[1.562s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.210s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.791s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[3.092s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.106s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.133s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.220s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.765s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.787s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.323s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.484s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.632s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.064s] -- Looking for pthread.h
+[5.368s] -- Looking for pthread.h - found
+[5.374s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.708s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.712s] -- Found Threads: TRUE  
+[6.476s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[6.750s] -- Found fsd_common_msgs: 0.0.0 (/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/cmake)
+[7.342s] -- Configuring done
+[7.391s] -- Generating done
+[7.424s] -- Build files have been written to: /home/jack/ros2_homework_advanced/build/cone_visualizer
+[7.466s] Invoked command in '/home/jack/ros2_homework_advanced/build/cone_visualizer' returned '0': AMENT_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jack/ros2_homework_advanced/src/cone_visualizer -DCMAKE_INSTALL_PREFIX=/home/jack/ros2_homework_advanced/install/cone_visualizer
+[7.468s] Invoking command in '/home/jack/ros2_homework_advanced/build/cone_visualizer': AMENT_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jack/ros2_homework_advanced/build/cone_visualizer -- -j2 -l2
+[7.646s] [ 50%] [32mBuilding CXX object CMakeFiles/cone_visualizer_node.dir/src/cone_visualizer_node.cpp.o[0m
+[40.033s] [100%] [32m[1mLinking CXX executable cone_visualizer_node[0m
+[41.810s] [100%] Built target cone_visualizer_node
+[41.851s] Invoked command in '/home/jack/ros2_homework_advanced/build/cone_visualizer' returned '0': AMENT_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jack/ros2_homework_advanced/build/cone_visualizer -- -j2 -l2
+[41.854s] Invoking command in '/home/jack/ros2_homework_advanced/build/cone_visualizer': AMENT_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jack/ros2_homework_advanced/build/cone_visualizer
+[41.876s] -- Install configuration: ""
+[41.876s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/lib/cone_visualizer/cone_visualizer_node
+[41.885s] -- Set runtime path of "/home/jack/ros2_homework_advanced/install/cone_visualizer/lib/cone_visualizer/cone_visualizer_node" to ""
+[41.885s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/ament_index/resource_index/package_run_dependencies/cone_visualizer
+[41.885s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/ament_index/resource_index/parent_prefix_path/cone_visualizer
+[41.894s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/environment/ament_prefix_path.sh
+[41.913s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/environment/ament_prefix_path.dsv
+[41.913s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/environment/path.sh
+[41.913s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/environment/path.dsv
+[41.914s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/local_setup.bash
+[41.915s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/local_setup.sh
+[41.915s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/local_setup.zsh
+[41.915s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/local_setup.dsv
+[41.916s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.dsv
+[41.917s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/ament_index/resource_index/packages/cone_visualizer
+[41.918s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/cmake/cone_visualizerConfig.cmake
+[41.918s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/cmake/cone_visualizerConfig-version.cmake
+[41.918s] -- Installing: /home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.xml
+[41.924s] Invoked command in '/home/jack/ros2_homework_advanced/build/cone_visualizer' returned '0': AMENT_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jack/ros2_homework_advanced/build/cone_visualizer

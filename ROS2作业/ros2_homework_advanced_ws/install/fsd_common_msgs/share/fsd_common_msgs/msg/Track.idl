@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/Track.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module fsd_common_msgs {
+  module msg {
+    struct Track {
+      std_msgs::msg::Header header;
+
+      sequence<geometry_msgs::msg::Point> cones_left;
+
+      sequence<geometry_msgs::msg::Point> cones_right;
+
+      sequence<geometry_msgs::msg::Point> cones_orange;
+
+      sequence<geometry_msgs::msg::Point> cones_orange_big;
+
+      sequence<geometry_msgs::msg::Point> tk_device_start;
+
+      sequence<geometry_msgs::msg::Point> tk_device_end;
+    };
+  };
+};

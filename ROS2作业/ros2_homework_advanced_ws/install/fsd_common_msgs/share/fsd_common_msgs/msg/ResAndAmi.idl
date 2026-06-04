@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/ResAndAmi.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module fsd_common_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Header")
+    struct ResAndAmi {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "指示res状态，1代表“go”信号")
+      uint8 res_state;
+
+      @verbatim (language="comment", text=
+        "指示AMI选择的无人驾驶任务。0.inspection;1.ebs_test;2.acceleration;3.skidpad;4.trackdrive")
+      string mission;
+    };
+  };
+};

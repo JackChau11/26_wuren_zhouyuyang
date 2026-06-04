@@ -1,0 +1,135 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/Visualization.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module fsd_common_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "visualization data ")
+    struct Visualization {
+      @verbatim (language="comment", text=
+        "standard ROS message header")
+      std_msgs::msg::Header header;
+
+      uint64 frame_id_num;
+
+      @verbatim (language="comment", text=
+        "error data")
+      float lat_error_front_axis;
+
+      float lat_error_cog;
+
+      float lat_error_rear_axis;
+
+      float yaw_error_front_axis;
+
+      float yaw_error_cog;
+
+      float yaw_error_rear_axis;
+
+      float yaw_rate_error;
+
+      float steering_error;
+
+      float vx_error;
+
+      float vy_error;
+
+      float sideslip_error;
+
+      float motor_torq_error_lr;
+
+      float motor_torq_error_rr;
+
+      float motor_speed_error_lr;
+
+      float motor_speed_error_rr;
+
+      float error1;
+
+      float error2;
+
+      float error3;
+
+      float error4;
+
+      @verbatim (language="comment", text=
+        "ref visualization")
+      float yaw_ref;
+
+      float yaw_ref_front_axis;
+
+      float yaw_ref_cog;
+
+      float yaw_ref_rear_axis;
+
+      float curvature_ref;
+
+      float curvature_ref_front_axis;
+
+      float curvature_ref_cog;
+
+      float curvature_ref_rear_axis;
+
+      float vx_ref;
+
+      float vy_ref;
+
+      float ax_ref;
+
+      float ay_ref;
+
+      float ref1;
+
+      float ref2;
+
+      float ref3;
+
+      float ref4;
+
+      @verbatim (language="comment", text=
+        "algorithm data visualization")
+      float steering_without_compensation;
+
+      float steering_feedback;
+
+      float steering_feedforward;
+
+      float lookforward_length;
+
+      float yaw_rate_pre;
+
+      float turning_radius;
+
+      float adhesion_coefficient_pre;
+
+      float sideslip_pre;
+
+      float slip_angle_pre_fl;
+
+      float slip_angle_pre_fr;
+
+      float slip_angle_pre_rl;
+
+      float slip_angle_pre_rr;
+
+      float norm_force_pre_fl;
+
+      float norm_force_pre_fr;
+
+      float norm_force_pre_rl;
+
+      float norm_force_pre_rr;
+
+      float algorithm1;
+
+      float algorithm2;
+
+      float algorithm3;
+
+      float algorithm4;
+    };
+  };
+};

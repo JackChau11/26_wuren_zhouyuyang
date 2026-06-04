@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/DrivingDynamics.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module fsd_common_msgs {
+  module msg {
+    struct DrivingDynamics {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "此msg用来发送特定数据给CAN_send节点，再发到canB总线")
+      float speed_target;
+
+      float speed_actual;
+
+      float steering_angle_target;
+
+      float steering_angle_actual;
+
+      float brake_hydr_target;
+
+      float brake_hydr_actual;
+
+      float motor_moment_target;
+
+      float motor_moment_actual;
+
+      float acceleration_longitudinal;
+
+      float acceleration_lateral;
+
+      float yaw_rate;
+    };
+  };
+};

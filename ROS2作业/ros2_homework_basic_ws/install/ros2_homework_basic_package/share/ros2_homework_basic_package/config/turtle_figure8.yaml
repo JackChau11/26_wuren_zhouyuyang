@@ -1,0 +1,10 @@
+turtle_figure8:
+  ros__parameters:
+    #线速度 
+    linear_speed: 1.0
+    
+    #角速度 
+    angular_speed: 1.0
+    
+    #发布频率 
+    publish_rate: 50
