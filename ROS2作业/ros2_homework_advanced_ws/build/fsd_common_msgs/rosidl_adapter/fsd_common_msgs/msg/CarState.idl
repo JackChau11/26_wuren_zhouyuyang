@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/CarState.msg
+// generated code does not contain a copyright notice
+
+#include "fsd_common_msgs/msg/CarStateDt.idl"
+#include "geometry_msgs/msg/Pose2D.idl"
+#include "std_msgs/msg/Header.idl"
+
+module fsd_common_msgs {
+  module msg {
+    struct CarState {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Position in x, y, theta")
+      geometry_msgs::msg::Pose2D car_state;
+
+      @verbatim (language="comment", text=
+        "Velocities")
+      fsd_common_msgs::msg::CarStateDt car_state_dt;
+    };
+  };
+};

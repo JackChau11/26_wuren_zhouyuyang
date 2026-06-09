@@ -1,0 +1,44 @@
+#include"IrisPrediction.hpp"
+#include<iostream>
+
+int main(){
+    svm_problem problem=loadData("iris.csv");
+
+    //设置svm参数
+    svm_parameter param;
+    param.svm_type=C_SVC;
+    param.kernel_type=RBF;
+    param.degree=3;
+    param.gamma=2;//若使用脚本，则换为GAMMA_VALUE
+    param.coef0=0;
+    param.nu=0.5;
+    param.cache_size=100;
+    param.C=100;//若使用脚本，则换为C_VALUE
+    param.eps=1e-3;
+    param.p=0.1;
+    param.shrinking=1;
+    param.probability=0;
+    param.nr_weight=0;
+    param.weight_label=NULL;
+    param.weight=NULL;
+
+    std::cout<<"Training Started."<<std::endl;
+    svm_model *model=svm_train(&problem,&param);
+
+    //计算正确数量和正确率
+    int correct_number=0;
+    for(int i=0;i<problem.l;i++){
+        double predict=svm_predict(model,problem.x[i]);
+        if(predict==problem.y[i])correct_number++;
+    }
+
+    double accuracy=100*correct_number/problem.l;
+
+    std::cout<<"Correct Number: "<<correct_number<<" Accuracy: "<<accuracy<<"%"<<std::endl;
+
+    //释放资源
+    svm_free_and_destroy_model(&model);
+    svm_destroy_param(&param);
+    free(problem);
+
+}

@@ -1,0 +1,55 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/EchievMessage.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module fsd_common_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "echiev_perception ,message of echiev perception result ")
+    struct EchievMessage {
+      @verbatim (language="comment", text=
+        "standard ROS message header")
+      std_msgs::msg::Header header;
+
+      uint64 frame_id_num;
+
+      uint64 ull_timestamp;
+
+      double lat;
+
+      double lon;
+
+      float h;
+
+      float vn;
+
+      float ve;
+
+      float vh;
+
+      float roll;
+
+      float pitch;
+
+      float yaw;
+
+      float acc_x;
+
+      float acc_y;
+
+      float acc_z;
+
+      float gyro_x;
+
+      float gyro_y;
+
+      float gyro_z;
+
+      uint8 state;
+
+      uint8 gps_state;
+    };
+  };
+};

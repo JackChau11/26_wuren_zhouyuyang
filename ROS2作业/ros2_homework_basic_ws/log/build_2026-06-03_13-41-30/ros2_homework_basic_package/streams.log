@@ -1,0 +1,30 @@
+[0.143s] Invoking command in '/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package -- -j2 -l2
+[1.244s] [35m[1mConsolidate compiler generated dependencies of target turtle_figure8[0m
+[1.395s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_figure8.dir/src/turtle_figure8.cpp.o[0m
+[19.440s] [100%] [32m[1mLinking CXX executable turtle_figure8[0m
+[26.294s] [100%] Built target turtle_figure8
+[26.324s] Invoked command in '/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package -- -j2 -l2
+[26.841s] Invoking command in '/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package
+[27.162s] -- Install configuration: ""
+[27.791s] -- Installing: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/lib/ros2_homework_basic_package/turtle_figure8
+[27.859s] -- Set runtime path of "/home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/lib/ros2_homework_basic_package/turtle_figure8" to ""
+[27.859s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/launch
+[27.859s] -- Installing: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/launch/turtle_figure8.launch.py
+[28.067s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/config
+[28.069s] -- Installing: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/config/turtle_figure8.yaml
+[28.223s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/package_run_dependencies/ros2_homework_basic_package
+[28.268s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/parent_prefix_path/ros2_homework_basic_package
+[28.391s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/ament_prefix_path.sh
+[28.391s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/ament_prefix_path.dsv
+[28.391s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/path.sh
+[28.391s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/path.dsv
+[28.477s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.bash
+[28.480s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.sh
+[28.480s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.zsh
+[28.480s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.dsv
+[28.624s] -- Installing: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/package.dsv
+[28.734s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/packages/ros2_homework_basic_package
+[28.804s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/cmake/ros2_homework_basic_packageConfig.cmake
+[28.805s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/cmake/ros2_homework_basic_packageConfig-version.cmake
+[28.805s] -- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/package.xml
+[28.809s] Invoked command in '/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package

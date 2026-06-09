@@ -1,0 +1,10 @@
+/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/uninstall.dir
+/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/ros2_homework_basic_package_uninstall.dir
+/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/turtle_figure8.dir
+/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/test.dir
+/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/edit_cache.dir
+/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/rebuild_cache.dir
+/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/list_install_components.dir
+/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/install.dir
+/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/install/local.dir
+/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package/CMakeFiles/install/strip.dir

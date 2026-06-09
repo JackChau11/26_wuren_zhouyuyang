@@ -1,0 +1,28 @@
+[0.032s] Invoking command in '/home/jack/ros2_homework_advanced/build/cone_visualizer': CMAKE_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/home/jack/ros2_homework_advanced/install/cone_visualizer:/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_homework_advanced/build/cone_visualizer -- -j2 -l2
+[0.130s] [35m[1mConsolidate compiler generated dependencies of target cone_visualizer_node[0m
+[0.173s] [ 50%] [32mBuilding CXX object CMakeFiles/cone_visualizer_node.dir/src/cone_visualizer_node.cpp.o[0m
+[7.490s] [01m[K/home/jack/ros2_homework_advanced/src/cone_visualizer/src/cone_visualizer_node.cpp:[m[K In member function ‘[01m[Kint ConeVisualizer::addConesToMarkerArray(const std::vector<fsd_common_msgs::msg::Cone_<std::allocator<void> >, std::allocator<fsd_common_msgs::msg::Cone_<std::allocator<void> > > >&, const string&, int, float, float, float, visualization_msgs::msg::MarkerArray&)[m[K’:
+[7.490s] [01m[K/home/jack/ros2_homework_advanced/src/cone_visualizer/src/cone_visualizer_node.cpp:116:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Duration::from_seconds(int, int)[m[K’
+[7.491s]   116 |             marker.lifetime = [01;31m[Krclcpp::Duration::from_seconds(0,0)[m[K;
+[7.491s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[7.491s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[7.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:33[m[K,
+[7.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[7.491s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.492s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.492s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.492s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.493s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.493s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.493s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.493s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.493s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.493s]                  from [01m[K/home/jack/ros2_homework_advanced/src/cone_visualizer/src/cone_visualizer_node.cpp:6[m[K:
+[7.493s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:127:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic rclcpp::Duration rclcpp::Duration::from_seconds(double)[m[K’
+[7.494s]   127 |   [01;36m[Kfrom_seconds[m[K(double seconds);
+[7.494s]       |   [01;36m[K^~~~~~~~~~~~[m[K
+[7.510s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:127:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[15.153s] gmake[2]: *** [CMakeFiles/cone_visualizer_node.dir/build.make:76：CMakeFiles/cone_visualizer_node.dir/src/cone_visualizer_node.cpp.o] 错误 1
+[15.156s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/cone_visualizer_node.dir/all] 错误 2
+[15.156s] gmake: *** [Makefile:146：all] 错误 2
+[15.160s] Invoked command in '/home/jack/ros2_homework_advanced/build/cone_visualizer' returned '2': CMAKE_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/home/jack/ros2_homework_advanced/install/cone_visualizer:/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_homework_advanced/build/cone_visualizer -- -j2 -l2

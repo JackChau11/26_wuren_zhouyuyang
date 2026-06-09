@@ -1,0 +1,227 @@
+[25.351s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[25.351s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7484e2274b50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7484e236e6b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7484e236e6b0>>)
+[43.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[43.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[43.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[43.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[43.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[43.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[43.555s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jack/ros2_homework_advanced'
+[43.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[43.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[43.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[43.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[43.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[43.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[43.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[43.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[43.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[46.966s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[46.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[46.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[46.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[46.969s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[46.970s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[46.970s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[46.970s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[46.970s] Level 1:colcon.colcon_core.package_identification:_identify(fsd_common_msgs) by extensions ['ignore', 'ignore_ament_install']
+[46.971s] Level 1:colcon.colcon_core.package_identification:_identify(fsd_common_msgs) by extension 'ignore'
+[46.971s] Level 1:colcon.colcon_core.package_identification:_identify(fsd_common_msgs) by extension 'ignore_ament_install'
+[46.971s] Level 1:colcon.colcon_core.package_identification:_identify(fsd_common_msgs) by extensions ['colcon_pkg']
+[46.971s] Level 1:colcon.colcon_core.package_identification:_identify(fsd_common_msgs) by extension 'colcon_pkg'
+[46.971s] Level 1:colcon.colcon_core.package_identification:_identify(fsd_common_msgs) by extensions ['colcon_meta']
+[46.972s] Level 1:colcon.colcon_core.package_identification:_identify(fsd_common_msgs) by extension 'colcon_meta'
+[46.972s] Level 1:colcon.colcon_core.package_identification:_identify(fsd_common_msgs) by extensions ['ros']
+[46.972s] Level 1:colcon.colcon_core.package_identification:_identify(fsd_common_msgs) by extension 'ros'
+[47.139s] DEBUG:colcon.colcon_core.package_identification:Package 'fsd_common_msgs' with type 'ros.ament_cmake' and name 'fsd_common_msgs'
+[47.140s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[47.140s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[47.141s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[47.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[47.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[47.142s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[47.142s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extensions ['ignore', 'ignore_ament_install']
+[47.142s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extension 'ignore'
+[47.142s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extension 'ignore_ament_install'
+[47.144s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extensions ['colcon_pkg']
+[47.144s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extension 'colcon_pkg'
+[47.144s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extensions ['colcon_meta']
+[47.144s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extension 'colcon_meta'
+[47.144s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extensions ['ros']
+[47.144s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extension 'ros'
+[47.145s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extensions ['cmake', 'python']
+[47.145s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extension 'cmake'
+[47.145s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extension 'python'
+[47.145s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extensions ['python_setup_py']
+[47.145s] Level 1:colcon.colcon_core.package_identification:_identify(map_to_visualize) by extension 'python_setup_py'
+[47.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[47.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[47.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[47.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[47.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[47.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[47.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[47.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[47.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[47.152s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[47.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[47.153s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[47.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[47.154s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[47.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_visualizer) by extensions ['ignore', 'ignore_ament_install']
+[47.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_visualizer) by extension 'ignore'
+[47.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_visualizer) by extension 'ignore_ament_install'
+[47.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_visualizer) by extensions ['colcon_pkg']
+[47.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_visualizer) by extension 'colcon_pkg'
+[47.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_visualizer) by extensions ['colcon_meta']
+[47.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_visualizer) by extension 'colcon_meta'
+[47.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_visualizer) by extensions ['ros']
+[47.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/cone_visualizer) by extension 'ros'
+[47.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cone_visualizer' with type 'ros.ament_cmake' and name 'cone_visualizer'
+[47.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[47.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[47.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[47.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[47.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[50.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[50.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[51.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/jack/ros2_homework_advanced/install
+[51.252s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 320 installed packages in /opt/ros/humble
+[51.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[52.174s] Level 5:colcon.colcon_core.verb:set package 'fsd_common_msgs' build argument 'cmake_args' from command line to 'None'
+[52.174s] Level 5:colcon.colcon_core.verb:set package 'fsd_common_msgs' build argument 'cmake_target' from command line to 'None'
+[52.174s] Level 5:colcon.colcon_core.verb:set package 'fsd_common_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[52.174s] Level 5:colcon.colcon_core.verb:set package 'fsd_common_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[52.175s] Level 5:colcon.colcon_core.verb:set package 'fsd_common_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[52.175s] Level 5:colcon.colcon_core.verb:set package 'fsd_common_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[52.175s] Level 5:colcon.colcon_core.verb:set package 'fsd_common_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[52.175s] Level 5:colcon.colcon_core.verb:set package 'fsd_common_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[52.175s] Level 5:colcon.colcon_core.verb:set package 'fsd_common_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[52.175s] DEBUG:colcon.colcon_core.verb:Building package 'fsd_common_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_homework_advanced/build/fsd_common_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_homework_advanced/install/fsd_common_msgs', 'merge_install': False, 'path': '/home/jack/ros2_homework_advanced/fsd_common_msgs', 'symlink_install': False, 'test_result_base': None}
+[52.177s] Level 5:colcon.colcon_core.verb:set package 'cone_visualizer' build argument 'cmake_args' from command line to 'None'
+[52.177s] Level 5:colcon.colcon_core.verb:set package 'cone_visualizer' build argument 'cmake_target' from command line to 'None'
+[52.177s] Level 5:colcon.colcon_core.verb:set package 'cone_visualizer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[52.177s] Level 5:colcon.colcon_core.verb:set package 'cone_visualizer' build argument 'cmake_clean_cache' from command line to 'False'
+[52.177s] Level 5:colcon.colcon_core.verb:set package 'cone_visualizer' build argument 'cmake_clean_first' from command line to 'False'
+[52.177s] Level 5:colcon.colcon_core.verb:set package 'cone_visualizer' build argument 'cmake_force_configure' from command line to 'False'
+[52.177s] Level 5:colcon.colcon_core.verb:set package 'cone_visualizer' build argument 'ament_cmake_args' from command line to 'None'
+[52.177s] Level 5:colcon.colcon_core.verb:set package 'cone_visualizer' build argument 'catkin_cmake_args' from command line to 'None'
+[52.177s] Level 5:colcon.colcon_core.verb:set package 'cone_visualizer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[52.177s] DEBUG:colcon.colcon_core.verb:Building package 'cone_visualizer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jack/ros2_homework_advanced/build/cone_visualizer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jack/ros2_homework_advanced/install/cone_visualizer', 'merge_install': False, 'path': '/home/jack/ros2_homework_advanced/src/cone_visualizer', 'symlink_install': False, 'test_result_base': None}
+[52.178s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[52.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[52.181s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jack/ros2_homework_advanced/fsd_common_msgs' with build type 'ament_cmake'
+[52.181s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jack/ros2_homework_advanced/fsd_common_msgs'
+[54.101s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[54.102s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[54.102s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_homework_advanced/build/fsd_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_homework_advanced/build/fsd_common_msgs -- -j2 -l2
+[86.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_homework_advanced/build/fsd_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_homework_advanced/build/fsd_common_msgs -- -j2 -l2
+[86.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_homework_advanced/build/fsd_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_homework_advanced/build/fsd_common_msgs
+[89.458s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fsd_common_msgs)
+[89.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_homework_advanced/build/fsd_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_homework_advanced/build/fsd_common_msgs
+[91.684s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs' for CMake module files
+[91.689s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs' for CMake config files
+[91.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('fsd_common_msgs', 'cmake_prefix_path')
+[91.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/hook/cmake_prefix_path.ps1'
+[91.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/hook/cmake_prefix_path.dsv'
+[91.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/hook/cmake_prefix_path.sh'
+[91.759s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib'
+[91.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('fsd_common_msgs', 'ld_library_path_lib')
+[91.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/hook/ld_library_path_lib.ps1'
+[91.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/hook/ld_library_path_lib.dsv'
+[91.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/hook/ld_library_path_lib.sh'
+[91.778s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/bin'
+[91.778s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib/pkgconfig/fsd_common_msgs.pc'
+[91.779s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib/python3.10/site-packages'
+[91.781s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/bin'
+[91.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/package.ps1'
+[91.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/package.dsv'
+[91.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/package.sh'
+[91.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/package.bash'
+[92.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/package.zsh'
+[92.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/colcon-core/packages/fsd_common_msgs)
+[92.260s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fsd_common_msgs)
+[92.263s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs' for CMake module files
+[92.267s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs' for CMake config files
+[92.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('fsd_common_msgs', 'cmake_prefix_path')
+[92.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/hook/cmake_prefix_path.ps1'
+[92.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/hook/cmake_prefix_path.dsv'
+[92.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/hook/cmake_prefix_path.sh'
+[92.296s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib'
+[92.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('fsd_common_msgs', 'ld_library_path_lib')
+[92.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/hook/ld_library_path_lib.ps1'
+[92.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/hook/ld_library_path_lib.dsv'
+[92.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/hook/ld_library_path_lib.sh'
+[92.314s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/bin'
+[92.314s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib/pkgconfig/fsd_common_msgs.pc'
+[92.316s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/lib/python3.10/site-packages'
+[92.319s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/bin'
+[92.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/package.ps1'
+[92.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/package.dsv'
+[92.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/package.sh'
+[92.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/package.bash'
+[92.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/fsd_common_msgs/package.zsh'
+[92.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_homework_advanced/install/fsd_common_msgs/share/colcon-core/packages/fsd_common_msgs)
+[92.445s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jack/ros2_homework_advanced/src/cone_visualizer' with build type 'ament_cmake'
+[92.446s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jack/ros2_homework_advanced/src/cone_visualizer'
+[92.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[92.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[92.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_homework_advanced/build/cone_visualizer': CMAKE_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/home/jack/ros2_homework_advanced/install/cone_visualizer:/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_homework_advanced/build/cone_visualizer -- -j2 -l2
+[138.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_homework_advanced/build/cone_visualizer' returned '0': CMAKE_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/home/jack/ros2_homework_advanced/install/cone_visualizer:/opt/ros/humble /usr/bin/cmake --build /home/jack/ros2_homework_advanced/build/cone_visualizer -- -j2 -l2
+[138.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jack/ros2_homework_advanced/build/cone_visualizer': CMAKE_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/home/jack/ros2_homework_advanced/install/cone_visualizer:/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_homework_advanced/build/cone_visualizer
+[138.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cone_visualizer)
+[138.749s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer' for CMake module files
+[138.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jack/ros2_homework_advanced/build/cone_visualizer' returned '0': CMAKE_PREFIX_PATH=/home/jack/ros2_homework_advanced/install/fsd_common_msgs:/home/jack/ros2_homework_advanced/install/cone_visualizer:/opt/ros/humble /usr/bin/cmake --install /home/jack/ros2_homework_advanced/build/cone_visualizer
+[138.753s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer' for CMake config files
+[138.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('cone_visualizer', 'cmake_prefix_path')
+[138.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/hook/cmake_prefix_path.ps1'
+[138.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/hook/cmake_prefix_path.dsv'
+[138.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/hook/cmake_prefix_path.sh'
+[138.786s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer/lib'
+[138.786s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer/bin'
+[138.786s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer/lib/pkgconfig/cone_visualizer.pc'
+[138.788s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer/lib/python3.10/site-packages'
+[138.789s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer/bin'
+[138.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.ps1'
+[138.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.dsv'
+[138.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.sh'
+[138.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.bash'
+[138.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.zsh'
+[138.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_homework_advanced/install/cone_visualizer/share/colcon-core/packages/cone_visualizer)
+[138.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cone_visualizer)
+[138.804s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer' for CMake module files
+[138.806s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer' for CMake config files
+[138.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('cone_visualizer', 'cmake_prefix_path')
+[138.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/hook/cmake_prefix_path.ps1'
+[138.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/hook/cmake_prefix_path.dsv'
+[138.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/hook/cmake_prefix_path.sh'
+[138.820s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer/lib'
+[138.821s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer/bin'
+[138.821s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer/lib/pkgconfig/cone_visualizer.pc'
+[138.824s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer/lib/python3.10/site-packages'
+[138.826s] Level 1:colcon.colcon_core.environment:checking '/home/jack/ros2_homework_advanced/install/cone_visualizer/bin'
+[138.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.ps1'
+[138.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.dsv'
+[138.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.sh'
+[138.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.bash'
+[138.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/jack/ros2_homework_advanced/install/cone_visualizer/share/cone_visualizer/package.zsh'
+[138.850s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jack/ros2_homework_advanced/install/cone_visualizer/share/colcon-core/packages/cone_visualizer)
+[138.852s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[138.856s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[138.857s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[138.857s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[139.045s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[139.046s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[139.046s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[139.136s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[139.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jack/ros2_homework_advanced/install/local_setup.ps1'
+[139.156s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jack/ros2_homework_advanced/install/_local_setup_util_ps1.py'
+[139.209s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jack/ros2_homework_advanced/install/setup.ps1'
+[139.374s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jack/ros2_homework_advanced/install/local_setup.sh'
+[139.393s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jack/ros2_homework_advanced/install/_local_setup_util_sh.py'
+[139.394s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jack/ros2_homework_advanced/install/setup.sh'
+[139.416s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jack/ros2_homework_advanced/install/local_setup.bash'
+[139.431s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jack/ros2_homework_advanced/install/setup.bash'
+[139.435s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jack/ros2_homework_advanced/install/local_setup.zsh'
+[139.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jack/ros2_homework_advanced/install/setup.zsh'

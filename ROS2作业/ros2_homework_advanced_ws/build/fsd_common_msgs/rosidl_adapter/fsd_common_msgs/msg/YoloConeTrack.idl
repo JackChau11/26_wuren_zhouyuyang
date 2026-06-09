@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/YoloConeTrack.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Float32.idl"
+#include "std_msgs/msg/String.idl"
+#include "std_msgs/msg/UInt8.idl"
+
+module fsd_common_msgs {
+  module msg {
+    struct YoloConeTrack {
+      @verbatim (language="comment", text=
+        "center x")
+      std_msgs::msg::Float32 x;
+
+      @verbatim (language="comment", text=
+        "center y")
+      std_msgs::msg::Float32 y;
+
+      @verbatim (language="comment", text=
+        "width")
+      std_msgs::msg::Float32 width;
+
+      @verbatim (language="comment", text=
+        "height")
+      std_msgs::msg::Float32 height;
+
+      @verbatim (language="comment", text=
+        "color of cone, 'r' = red, 'b' = blue, 'y' = yellow")
+      std_msgs::msg::String color;
+
+      @verbatim (language="comment", text=
+        "confidence of cone detect")
+      std_msgs::msg::Float32 color_confidence;
+
+      @verbatim (language="comment", text=
+        "3d position with (x,y,z)")
+      geometry_msgs::msg::Point position;
+
+      std_msgs::msg::Float32 pose_confidence;
+
+      std_msgs::msg::UInt8 tracking_id;
+
+      @verbatim (language="comment", text=
+        "OFF, OK, SEARCHING, TERMINATE")
+      std_msgs::msg::String tracking_state;
+
+      std_msgs::msg::UInt8 missing_frams;
+    };
+  };
+};

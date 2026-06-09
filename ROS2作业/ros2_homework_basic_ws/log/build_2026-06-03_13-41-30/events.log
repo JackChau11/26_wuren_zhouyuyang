@@ -1,0 +1,349 @@
+[0.000000] (-) TimerEvent: {}
+[0.001728] (ros2_homework_basic_package) JobQueued: {'identifier': 'ros2_homework_basic_package', 'dependencies': OrderedDict()}
+[0.001872] (ros2_homework_basic_package) JobStarted: {'identifier': 'ros2_homework_basic_package'}
+[0.099573] (-) TimerEvent: {}
+[0.101511] (ros2_homework_basic_package) JobProgress: {'identifier': 'ros2_homework_basic_package', 'progress': 'cmake'}
+[0.139797] (ros2_homework_basic_package) JobProgress: {'identifier': 'ros2_homework_basic_package', 'progress': 'build'}
+[0.139966] (ros2_homework_basic_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package', '--', '-j2', '-l2'], 'cwd': '/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jack'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jack'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4936'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0dcd91f9bf5f046a07afdaf96a1f6a5e'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jack/ros2_homework_basic_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jack'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jack'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jack-270E5J-2570EJ:@/tmp/.ICE-unix/4936,unix/jack-270E5J-2570EJ:/tmp/.ICE-unix/4936'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1aa954a8_0ea1_43d1_b503_c67f34d605a6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7Y9QP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.422'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('INSIDE_NAUTILUS_PYTHON', ''), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0dcd91f9bf5f046a07afdaf96a1f6a5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/jack/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package:/opt/ros/humble')]), 'shell': False}
+[0.199767] (-) TimerEvent: {}
+[0.300298] (-) TimerEvent: {}
+[0.401000] (-) TimerEvent: {}
+[0.501689] (-) TimerEvent: {}
+[0.602434] (-) TimerEvent: {}
+[0.703214] (-) TimerEvent: {}
+[0.803821] (-) TimerEvent: {}
+[0.904404] (-) TimerEvent: {}
+[1.004992] (-) TimerEvent: {}
+[1.105516] (-) TimerEvent: {}
+[1.207215] (-) TimerEvent: {}
+[1.245410] (ros2_homework_basic_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_figure8\x1b[0m\n'}
+[1.307405] (-) TimerEvent: {}
+[1.396531] (ros2_homework_basic_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_figure8.dir/src/turtle_figure8.cpp.o\x1b[0m\n'}
+[1.407522] (-) TimerEvent: {}
+[1.508169] (-) TimerEvent: {}
+[1.608671] (-) TimerEvent: {}
+[1.709171] (-) TimerEvent: {}
+[1.809663] (-) TimerEvent: {}
+[1.910090] (-) TimerEvent: {}
+[2.010520] (-) TimerEvent: {}
+[2.111250] (-) TimerEvent: {}
+[2.211719] (-) TimerEvent: {}
+[2.312828] (-) TimerEvent: {}
+[2.413407] (-) TimerEvent: {}
+[2.513900] (-) TimerEvent: {}
+[2.614531] (-) TimerEvent: {}
+[2.715146] (-) TimerEvent: {}
+[2.815804] (-) TimerEvent: {}
+[2.916620] (-) TimerEvent: {}
+[3.017296] (-) TimerEvent: {}
+[3.118059] (-) TimerEvent: {}
+[3.218645] (-) TimerEvent: {}
+[3.319488] (-) TimerEvent: {}
+[3.419926] (-) TimerEvent: {}
+[3.520366] (-) TimerEvent: {}
+[3.620810] (-) TimerEvent: {}
+[3.721522] (-) TimerEvent: {}
+[3.822084] (-) TimerEvent: {}
+[3.922733] (-) TimerEvent: {}
+[4.023274] (-) TimerEvent: {}
+[4.123840] (-) TimerEvent: {}
+[4.224328] (-) TimerEvent: {}
+[4.324784] (-) TimerEvent: {}
+[4.425288] (-) TimerEvent: {}
+[4.525716] (-) TimerEvent: {}
+[4.626243] (-) TimerEvent: {}
+[4.726672] (-) TimerEvent: {}
+[4.827233] (-) TimerEvent: {}
+[4.929277] (-) TimerEvent: {}
+[5.029703] (-) TimerEvent: {}
+[5.130122] (-) TimerEvent: {}
+[5.230533] (-) TimerEvent: {}
+[5.331008] (-) TimerEvent: {}
+[5.431779] (-) TimerEvent: {}
+[5.533212] (-) TimerEvent: {}
+[5.633642] (-) TimerEvent: {}
+[5.734306] (-) TimerEvent: {}
+[5.836382] (-) TimerEvent: {}
+[5.937202] (-) TimerEvent: {}
+[6.038485] (-) TimerEvent: {}
+[6.139525] (-) TimerEvent: {}
+[6.239989] (-) TimerEvent: {}
+[6.340621] (-) TimerEvent: {}
+[6.441050] (-) TimerEvent: {}
+[6.541787] (-) TimerEvent: {}
+[6.642387] (-) TimerEvent: {}
+[6.742877] (-) TimerEvent: {}
+[6.843519] (-) TimerEvent: {}
+[6.943953] (-) TimerEvent: {}
+[7.046772] (-) TimerEvent: {}
+[7.148435] (-) TimerEvent: {}
+[7.248880] (-) TimerEvent: {}
+[7.349445] (-) TimerEvent: {}
+[7.451212] (-) TimerEvent: {}
+[7.551745] (-) TimerEvent: {}
+[7.652177] (-) TimerEvent: {}
+[7.753524] (-) TimerEvent: {}
+[7.856206] (-) TimerEvent: {}
+[7.956669] (-) TimerEvent: {}
+[8.057251] (-) TimerEvent: {}
+[8.157777] (-) TimerEvent: {}
+[8.260220] (-) TimerEvent: {}
+[8.361173] (-) TimerEvent: {}
+[8.461656] (-) TimerEvent: {}
+[8.563419] (-) TimerEvent: {}
+[8.663857] (-) TimerEvent: {}
+[8.764620] (-) TimerEvent: {}
+[8.866350] (-) TimerEvent: {}
+[8.967675] (-) TimerEvent: {}
+[9.069108] (-) TimerEvent: {}
+[9.170444] (-) TimerEvent: {}
+[9.272406] (-) TimerEvent: {}
+[9.372887] (-) TimerEvent: {}
+[9.473459] (-) TimerEvent: {}
+[9.575395] (-) TimerEvent: {}
+[9.675872] (-) TimerEvent: {}
+[9.776455] (-) TimerEvent: {}
+[9.877249] (-) TimerEvent: {}
+[9.978016] (-) TimerEvent: {}
+[10.080201] (-) TimerEvent: {}
+[10.180659] (-) TimerEvent: {}
+[10.281131] (-) TimerEvent: {}
+[10.381578] (-) TimerEvent: {}
+[10.482038] (-) TimerEvent: {}
+[10.584870] (-) TimerEvent: {}
+[10.685484] (-) TimerEvent: {}
+[10.787047] (-) TimerEvent: {}
+[10.889244] (-) TimerEvent: {}
+[10.989732] (-) TimerEvent: {}
+[11.091661] (-) TimerEvent: {}
+[11.193707] (-) TimerEvent: {}
+[11.294747] (-) TimerEvent: {}
+[11.396085] (-) TimerEvent: {}
+[11.498728] (-) TimerEvent: {}
+[11.600374] (-) TimerEvent: {}
+[11.700849] (-) TimerEvent: {}
+[11.801648] (-) TimerEvent: {}
+[11.903230] (-) TimerEvent: {}
+[12.003862] (-) TimerEvent: {}
+[12.104408] (-) TimerEvent: {}
+[12.206205] (-) TimerEvent: {}
+[12.307296] (-) TimerEvent: {}
+[12.408337] (-) TimerEvent: {}
+[12.510015] (-) TimerEvent: {}
+[12.610577] (-) TimerEvent: {}
+[12.713827] (-) TimerEvent: {}
+[12.814444] (-) TimerEvent: {}
+[12.915029] (-) TimerEvent: {}
+[13.015617] (-) TimerEvent: {}
+[13.117377] (-) TimerEvent: {}
+[13.217881] (-) TimerEvent: {}
+[13.320207] (-) TimerEvent: {}
+[13.420736] (-) TimerEvent: {}
+[13.521305] (-) TimerEvent: {}
+[13.621846] (-) TimerEvent: {}
+[13.722433] (-) TimerEvent: {}
+[13.823521] (-) TimerEvent: {}
+[13.924138] (-) TimerEvent: {}
+[14.026202] (-) TimerEvent: {}
+[14.127215] (-) TimerEvent: {}
+[14.227786] (-) TimerEvent: {}
+[14.332218] (-) TimerEvent: {}
+[14.432990] (-) TimerEvent: {}
+[14.533640] (-) TimerEvent: {}
+[14.635222] (-) TimerEvent: {}
+[14.737216] (-) TimerEvent: {}
+[14.837695] (-) TimerEvent: {}
+[14.938177] (-) TimerEvent: {}
+[15.038629] (-) TimerEvent: {}
+[15.139127] (-) TimerEvent: {}
+[15.239624] (-) TimerEvent: {}
+[15.341291] (-) TimerEvent: {}
+[15.441876] (-) TimerEvent: {}
+[15.542541] (-) TimerEvent: {}
+[15.643031] (-) TimerEvent: {}
+[15.743453] (-) TimerEvent: {}
+[15.843984] (-) TimerEvent: {}
+[15.944680] (-) TimerEvent: {}
+[16.046616] (-) TimerEvent: {}
+[16.147100] (-) TimerEvent: {}
+[16.249232] (-) TimerEvent: {}
+[16.349765] (-) TimerEvent: {}
+[16.451207] (-) TimerEvent: {}
+[16.551656] (-) TimerEvent: {}
+[16.652424] (-) TimerEvent: {}
+[16.753230] (-) TimerEvent: {}
+[16.853870] (-) TimerEvent: {}
+[16.956206] (-) TimerEvent: {}
+[17.056688] (-) TimerEvent: {}
+[17.157486] (-) TimerEvent: {}
+[17.258372] (-) TimerEvent: {}
+[17.360310] (-) TimerEvent: {}
+[17.460989] (-) TimerEvent: {}
+[17.562277] (-) TimerEvent: {}
+[17.662823] (-) TimerEvent: {}
+[17.763254] (-) TimerEvent: {}
+[17.863884] (-) TimerEvent: {}
+[17.964408] (-) TimerEvent: {}
+[18.064997] (-) TimerEvent: {}
+[18.165642] (-) TimerEvent: {}
+[18.266282] (-) TimerEvent: {}
+[18.366924] (-) TimerEvent: {}
+[18.468227] (-) TimerEvent: {}
+[18.568658] (-) TimerEvent: {}
+[18.669160] (-) TimerEvent: {}
+[18.769604] (-) TimerEvent: {}
+[18.870141] (-) TimerEvent: {}
+[18.970684] (-) TimerEvent: {}
+[19.071347] (-) TimerEvent: {}
+[19.171926] (-) TimerEvent: {}
+[19.272587] (-) TimerEvent: {}
+[19.373301] (-) TimerEvent: {}
+[19.441926] (ros2_homework_basic_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_figure8\x1b[0m\n'}
+[19.473463] (-) TimerEvent: {}
+[19.573946] (-) TimerEvent: {}
+[19.674622] (-) TimerEvent: {}
+[19.775223] (-) TimerEvent: {}
+[19.876230] (-) TimerEvent: {}
+[19.977230] (-) TimerEvent: {}
+[20.077800] (-) TimerEvent: {}
+[20.178489] (-) TimerEvent: {}
+[20.279453] (-) TimerEvent: {}
+[20.380007] (-) TimerEvent: {}
+[20.480444] (-) TimerEvent: {}
+[20.581270] (-) TimerEvent: {}
+[20.682451] (-) TimerEvent: {}
+[20.782919] (-) TimerEvent: {}
+[20.883526] (-) TimerEvent: {}
+[20.985244] (-) TimerEvent: {}
+[21.085745] (-) TimerEvent: {}
+[21.186239] (-) TimerEvent: {}
+[21.286680] (-) TimerEvent: {}
+[21.387298] (-) TimerEvent: {}
+[21.487777] (-) TimerEvent: {}
+[21.588416] (-) TimerEvent: {}
+[21.688905] (-) TimerEvent: {}
+[21.789544] (-) TimerEvent: {}
+[21.890185] (-) TimerEvent: {}
+[21.990944] (-) TimerEvent: {}
+[22.091570] (-) TimerEvent: {}
+[22.192195] (-) TimerEvent: {}
+[22.292860] (-) TimerEvent: {}
+[22.393599] (-) TimerEvent: {}
+[22.494346] (-) TimerEvent: {}
+[22.595722] (-) TimerEvent: {}
+[22.696360] (-) TimerEvent: {}
+[22.797063] (-) TimerEvent: {}
+[22.897659] (-) TimerEvent: {}
+[22.998257] (-) TimerEvent: {}
+[23.099039] (-) TimerEvent: {}
+[23.201092] (-) TimerEvent: {}
+[23.301622] (-) TimerEvent: {}
+[23.402161] (-) TimerEvent: {}
+[23.503484] (-) TimerEvent: {}
+[23.604259] (-) TimerEvent: {}
+[23.704895] (-) TimerEvent: {}
+[23.806595] (-) TimerEvent: {}
+[23.907210] (-) TimerEvent: {}
+[24.007879] (-) TimerEvent: {}
+[24.108474] (-) TimerEvent: {}
+[24.209050] (-) TimerEvent: {}
+[24.309490] (-) TimerEvent: {}
+[24.409915] (-) TimerEvent: {}
+[24.510347] (-) TimerEvent: {}
+[24.610758] (-) TimerEvent: {}
+[24.711599] (-) TimerEvent: {}
+[24.812069] (-) TimerEvent: {}
+[24.912575] (-) TimerEvent: {}
+[25.013240] (-) TimerEvent: {}
+[25.113787] (-) TimerEvent: {}
+[25.418269] (-) TimerEvent: {}
+[25.518811] (-) TimerEvent: {}
+[25.619234] (-) TimerEvent: {}
+[25.719715] (-) TimerEvent: {}
+[25.820208] (-) TimerEvent: {}
+[25.920628] (-) TimerEvent: {}
+[26.021204] (-) TimerEvent: {}
+[26.121822] (-) TimerEvent: {}
+[26.224173] (-) TimerEvent: {}
+[26.295403] (ros2_homework_basic_package) StdoutLine: {'line': b'[100%] Built target turtle_figure8\n'}
+[26.324266] (-) TimerEvent: {}
+[26.325630] (ros2_homework_basic_package) CommandEnded: {'returncode': 0}
+[26.425197] (-) TimerEvent: {}
+[26.525619] (-) TimerEvent: {}
+[26.626375] (-) TimerEvent: {}
+[26.728208] (-) TimerEvent: {}
+[26.819248] (ros2_homework_basic_package) JobProgress: {'identifier': 'ros2_homework_basic_package', 'progress': 'install'}
+[26.828339] (-) TimerEvent: {}
+[26.842292] (ros2_homework_basic_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package'], 'cwd': '/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jack'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jack'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4936'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0dcd91f9bf5f046a07afdaf96a1f6a5e'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jack/ros2_homework_basic_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jack'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jack'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jack-270E5J-2570EJ:@/tmp/.ICE-unix/4936,unix/jack-270E5J-2570EJ:/tmp/.ICE-unix/4936'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1aa954a8_0ea1_43d1_b503_c67f34d605a6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7Y9QP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.422'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('INSIDE_NAUTILUS_PYTHON', ''), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jack/ros2_homework_basic_ws/build/ros2_homework_basic_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=0dcd91f9bf5f046a07afdaf96a1f6a5e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/jack/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package:/opt/ros/humble')]), 'shell': False}
+[26.928519] (-) TimerEvent: {}
+[27.028950] (-) TimerEvent: {}
+[27.129401] (-) TimerEvent: {}
+[27.163384] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.229566] (-) TimerEvent: {}
+[27.330060] (-) TimerEvent: {}
+[27.432240] (-) TimerEvent: {}
+[27.532697] (-) TimerEvent: {}
+[27.633217] (-) TimerEvent: {}
+[27.735345] (-) TimerEvent: {}
+[27.793102] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Installing: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/lib/ros2_homework_basic_package/turtle_figure8\n'}
+[27.836177] (-) TimerEvent: {}
+[27.860331] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Set runtime path of "/home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/lib/ros2_homework_basic_package/turtle_figure8" to ""\n'}
+[27.860661] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/launch\n'}
+[27.860856] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Installing: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/launch/turtle_figure8.launch.py\n'}
+[27.936323] (-) TimerEvent: {}
+[28.038069] (-) TimerEvent: {}
+[28.068794] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/config\n'}
+[28.070384] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Installing: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/config/turtle_figure8.yaml\n'}
+[28.138346] (-) TimerEvent: {}
+[28.224510] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/package_run_dependencies/ros2_homework_basic_package\n'}
+[28.238542] (-) TimerEvent: {}
+[28.269792] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/parent_prefix_path/ros2_homework_basic_package\n'}
+[28.338690] (-) TimerEvent: {}
+[28.392316] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/ament_prefix_path.sh\n'}
+[28.392654] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/ament_prefix_path.dsv\n'}
+[28.392864] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/path.sh\n'}
+[28.393050] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/environment/path.dsv\n'}
+[28.438812] (-) TimerEvent: {}
+[28.478728] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.bash\n'}
+[28.481611] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.sh\n'}
+[28.481913] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.zsh\n'}
+[28.482102] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/local_setup.dsv\n'}
+[28.538930] (-) TimerEvent: {}
+[28.625585] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Installing: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/package.dsv\n'}
+[28.639048] (-) TimerEvent: {}
+[28.736121] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ament_index/resource_index/packages/ros2_homework_basic_package\n'}
+[28.739166] (-) TimerEvent: {}
+[28.806007] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/cmake/ros2_homework_basic_packageConfig.cmake\n'}
+[28.806340] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/cmake/ros2_homework_basic_packageConfig-version.cmake\n'}
+[28.806536] (ros2_homework_basic_package) StdoutLine: {'line': b'-- Up-to-date: /home/jack/ros2_homework_basic_ws/install/ros2_homework_basic_package/share/ros2_homework_basic_package/package.xml\n'}
+[28.810569] (ros2_homework_basic_package) CommandEnded: {'returncode': 0}
+[28.841211] (-) TimerEvent: {}
+[28.941763] (-) TimerEvent: {}
+[29.042395] (-) TimerEvent: {}
+[29.142827] (-) TimerEvent: {}
+[29.246190] (-) TimerEvent: {}
+[29.346689] (-) TimerEvent: {}
+[29.447866] (-) TimerEvent: {}
+[29.548416] (-) TimerEvent: {}
+[29.649387] (-) TimerEvent: {}
+[29.749818] (-) TimerEvent: {}
+[29.850222] (-) TimerEvent: {}
+[29.950641] (-) TimerEvent: {}
+[30.051174] (-) TimerEvent: {}
+[30.151628] (-) TimerEvent: {}
+[30.252265] (-) TimerEvent: {}
+[30.352854] (-) TimerEvent: {}
+[30.453419] (-) TimerEvent: {}
+[30.553933] (-) TimerEvent: {}
+[30.654583] (-) TimerEvent: {}
+[30.755212] (-) TimerEvent: {}
+[30.857195] (-) TimerEvent: {}
+[30.957901] (-) TimerEvent: {}
+[31.058353] (-) TimerEvent: {}
+[31.158836] (-) TimerEvent: {}
+[31.259281] (-) TimerEvent: {}
+[31.359746] (-) TimerEvent: {}
+[31.460274] (-) TimerEvent: {}
+[31.560880] (-) TimerEvent: {}
+[31.575316] (ros2_homework_basic_package) JobEnded: {'identifier': 'ros2_homework_basic_package', 'rc': 0}
+[31.577417] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/demo.dir/Q3.cpp.o -o demo  -Wl,-rpath,/usr/local/lib /usr/local/lib/libOsqpEigen.so.0.11.0 /usr/local/lib/libosqp.so 

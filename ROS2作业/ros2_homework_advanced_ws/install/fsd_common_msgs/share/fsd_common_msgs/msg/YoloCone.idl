@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/YoloCone.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Float32.idl"
+#include "std_msgs/msg/String.idl"
+
+module fsd_common_msgs {
+  module msg {
+    struct YoloCone {
+      @verbatim (language="comment", text=
+        "center x")
+      std_msgs::msg::Float32 x;
+
+      @verbatim (language="comment", text=
+        "center y")
+      std_msgs::msg::Float32 y;
+
+      @verbatim (language="comment", text=
+        "width")
+      std_msgs::msg::Float32 width;
+
+      @verbatim (language="comment", text=
+        "height")
+      std_msgs::msg::Float32 height;
+
+      @verbatim (language="comment", text=
+        "color of cone, 'r' = red, 'b' = blue, 'y' = yellow")
+      std_msgs::msg::String color;
+
+      @verbatim (language="comment", text=
+        "confidence of cone detect")
+      std_msgs::msg::Float32 color_confidence;
+    };
+  };
+};

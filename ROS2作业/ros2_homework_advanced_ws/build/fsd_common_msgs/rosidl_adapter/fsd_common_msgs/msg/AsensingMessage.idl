@@ -1,0 +1,119 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/AsensingMessage.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module fsd_common_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "# message of Asensing perception result.It is INS data. " "\n"
+      "Header header         # standard ROS message header" "\n"
+      "uint64 frame_id_num  " "\n"
+      "float32 acc_x" "\n"
+      "float32 acc_y" "\n"
+      "float32 acc_z" "\n"
+      "float32 gyro_x" "\n"
+      "float32 gyro_y" "\n"
+      "float32 gyro_z" "\n"
+      "float32 pitch" "\n"
+      "float32 roll" "\n"
+      "float32 heading_angle" "\n"
+      "float32 h" "\n"
+      "uint64 ull_timestamp" "\n"
+      "float64 lat" "\n"
+      "float64 lon" "\n"
+      "float32 vn" "\n"
+      "float32 ve" "\n"
+      "float32 vh" "\n"
+      "uint32 gps_flag_pos" "\n"
+      "uint32 num_sv" "\n"
+      "uint32 gps_flag_heading" "\n"
+      "uint64 gps_age" "\n"
+      "uint32 car_status" "\n"
+      "uint32 status" "\n"
+      "float32 std_lat" "\n"
+      "float32 std_lon" "\n"
+      "float32 std_local_height" "\n"
+      "float32 std_heading" "\n"
+      "float32 utc_year" "\n"
+      "float32 utc_month" "\n"
+      "float32 utc_day" "\n"
+      "float32 utc_hour" "\n"
+      "float32 utc_min" "\n"
+      "float32 utc_sec" "\n"
+      "float64 utc_msec")
+    struct AsensingMessage {
+      @verbatim (language="comment", text=
+        "message of Asensing perception result.It is INS data." "\n"
+        "standard ROS message header")
+      std_msgs::msg::Header header;
+
+      uint64 frame_id_num;
+
+      double lat;
+
+      double lon;
+
+      double h;
+
+      double vn;
+
+      double ve;
+
+      double vh;
+
+      double roll;
+
+      double pitch;
+
+      double heading_angle;
+
+      double gyro_x;
+
+      double gyro_y;
+
+      double gyro_z;
+
+      double acc_x;
+
+      double acc_y;
+
+      double acc_z;
+
+      float std_lat;
+
+      float std_lon;
+
+      float std_local_height;
+
+      float north_velocity_std;
+
+      float east_velocity_std;
+
+      float ground_velocity_std;
+
+      float roll_std;
+
+      float pitch_std;
+
+      float std_heading;
+
+      uint32 status;
+
+      uint32 gps_flag_pos;
+
+      double gps_week_number;
+
+      double ull_timestamp;
+
+      float temperature;
+
+      uint32 car_status;
+
+      uint32 gps_flag_heading;
+
+      uint32 num_sv;
+    };
+  };
+};

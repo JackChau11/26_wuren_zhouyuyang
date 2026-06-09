@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fsd_common_msgs/msg/TrajectoryPoint.msg
+// generated code does not contain a copyright notice
+
+#include "fsd_common_msgs/msg/CarState.idl"
+#include "std_msgs/msg/Header.idl"
+
+module fsd_common_msgs {
+  module msg {
+    struct TrajectoryPoint {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Velocities")
+      sequence<fsd_common_msgs::msg::CarState> trajectory_point;
+    };
+  };
+};
